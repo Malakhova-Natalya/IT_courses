@@ -20,7 +20,7 @@
 - 3.3  Подробнее про код: xcom, контексты: Теория
 - 3.4  Подробнее про код: xcom, контексты: Практика
 
-Мои решения: [3.2_0](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_0.ipynb "здесь"), [3.2_1](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_1.ipynb "здесь"), [3.2_2](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_2.ipynb "здесь")
+Мои решения: [3.2_0](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_0.ipynb "здесь"), [3.2_1](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_1.ipynb "здесь"), [3.2_2](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_2.ipynb "здесь"), [3.2_3](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_3.ipynb "здесь")
 
 
 ## 🗂️ 4: Подробнее про Airflow
