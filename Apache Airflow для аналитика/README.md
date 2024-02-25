@@ -1,9 +1,6 @@
 # Apache Airflow для аналитика 🗃️
 
 
-Курс на платформе Stepic: [здесь](https://stepik.org/course/99527/syllabus)
-
-
 ## 🗂️ 1: Знакомство
 ✒️ разделы:
 - 1.1 Знакомство
