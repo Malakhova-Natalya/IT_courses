@@ -8,19 +8,16 @@
 ## 🗂️ 2: Ликбез по ETL
 ✒️ разделы:
 - 2.1 Ликбез по ETL: Теория
-- 2.2 Ликбез по ETL: Практика
+- 2.2 Ликбез по ETL: Практика. Мои решения: [2.2](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/2.2.ipynb "здесь")
 - 2.3 Настройка окружения
 
-Мои решения: [2.2](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/2.2.ipynb "здесь")
 
 ## 🗂️ 3: Введение в Airflow: переносим пайплайн
 ✒️ разделы:
 - 3.1 Решение примера на Airflow: Теория
-- 3.2 Решение примера на Airflow: Практика
+- 3.2 Решение примера на Airflow: Практика. Мои решения: [3.2_0](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_0.ipynb "здесь"), [3.2_1](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_1.ipynb "здесь"), [3.2_2](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_2.ipynb "здесь"), [3.2_3](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_3.ipynb "здесь"), [3.2_4](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_4.ipynb "здесь")
 - 3.3  Подробнее про код: xcom, контексты: Теория
-- 3.4  Подробнее про код: xcom, контексты: Практика
-
-Мои решения: [3.2_0](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_0.ipynb "здесь"), [3.2_1](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_1.ipynb "здесь"), [3.2_2](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_2.ipynb "здесь"), [3.2_3](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_3.ipynb "здесь"), [3.2_4](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.2_4.ipynb "здесь"), [3.4_0](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.4_0.ipynb "здесь"), [3.4_1](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.4_1.ipynb "здесь"), [3.4_2](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.4_2.ipynb "здесь"), [3.4_3](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.4_3.txt "здесь")
+- 3.4  Подробнее про код: xcom, контексты: Практика. Мои решения: [3.4_0](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.4_0.ipynb "здесь"), [3.4_1](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.4_1.ipynb "здесь"), [3.4_2](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.4_2.ipynb "здесь"), [3.4_3](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/3.4_3.txt "здесь")
 
 
 
