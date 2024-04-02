@@ -34,7 +34,7 @@
 - 5.1 Плагины и нотификация. Мои решения: [telegram_notification](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/telegram_notification.txt "здесь")
 - 5.2 Сенсоры и branch операторы
 - 5.3 Операторы и хуки
-- 5.4 Автогенерация задач
+- 5.4 Автогенерация задач. Мои решения: [autogeneration_tasks](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/autogeneration_tasks.txt "здесь")
 
 
 
