@@ -39,7 +39,8 @@
 
 
 ## 🗂️ 6: Экзамен: повторение пройденного
-
+Мои решения:
+- Обращение по адресу при помощи SimpleHttpOperator и запись результата в xcom: [SimpleHttpOperator](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/SimpleHttpOperat%2C%20xcom.txt "здесь")
 
 ## 🗂️ 7: Установка Airflow в Docker
 ✒️ разделы:
