@@ -1,4 +1,4 @@
-# 👩‍💻🗃️ IT courses:
+# 💡 IT courses:
 
 ## 📖 Apache Airflow для аналитика
 
