@@ -42,6 +42,7 @@
 Мои решения:
 - Обращение по адресу при помощи SimpleHttpOperator и запись результата в xcom: [SimpleHttpOperator](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/SimpleHttpOperat%2C%20xcom.txt "здесь")
 - Переопределение стандартного оператора DummyOperator и запись рандомного числа в xcom: [DummyOperator](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/DummyOperator%2C%20random%2C%20xcom.txt "здесь")
+- Настройка сенсора и работы дага по условию: [HttpSensor](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/HttpSensor.txt "здесь")
 
 ## 🗂️ 7: Установка Airflow в Docker
 ✒️ разделы:
