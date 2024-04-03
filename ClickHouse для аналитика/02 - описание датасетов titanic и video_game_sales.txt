@@ -1,0 +1,69 @@
+Описание датасетов 
+-----------------------------------------------------------------------------
+Титаник
+
+Чтобы создать таблицу и заполнить её данными просто выполните данный скрипт:
+---------------------------------------
+CREATE TABLE titanic (PassengerId Int64, Survived Int8, Pclass Int16, Name String, Sex String, Age String, SibSp  Int8, Parch Int32, Ticket String, Fare String, Cabin  String, Embarked  String) ENGINE=TinyLog;
+---------------------------------------
+INSERT INTO titanic SELECT * FROM url('https://raw.githubusercontent.com/dmitrii12334/clickhouse/main/titanic', CSVWithNames, 'PassengerId Int64, Survived Int8, Pclass Int16, Name String, Sex String, Age String, SibSp Int8, Parch Int32, Ticket String, Fare String, Cabin  String, Embarked  String');
+---------------------------------------
+Каждая строчка наборов данных содержит следующие поля:
+
+Pclass — класс пассажира (1 — высший, 2 — средний, 3 — низший);
+Name — имя;
+Sex — пол;
+Age — возраст;
+SibSp — количество братьев, сестер, сводных братьев, сводных сестер, супругов на борту титаника;
+Parch — количество родителей, детей (в том числе приемных) на борту титаника;
+Ticket — номер билета;
+Fare — плата за проезд;
+Cabin — каюта;
+Embarked — порт посадки (C — Шербур; Q — Квинстаун; S — Саутгемптон).
+
+-----------------------------------------------------------------------------
+Продажи видеоигр
+
+Данный датасет это агрегированная информация по продажам каждой видеогры на различные платформы, чтобы создать данную таблицу и наполнить её данными выполните следующие скрипты.
+
+Создание таблицы:
+---------------------------------------
+CREATE TABLE video_game_sales (
+    Rank UInt32,
+    Name String,
+    Platform String,
+    Year String,
+    Genre String,
+    Publisher String,
+    NA_Sales Float32,
+    EU_Sales Float32,
+    JP_Sales Float32,
+    Other_Sales Float32,
+    Global_Sales Float32
+) ENGINE = Log
+---------------------------------------
+INSERT INTO video_game_sales SELECT * FROM url('https://raw.githubusercontent.com/dmitrii12334/clickhouse/main/vgsale', CSVWithNames, 'Rank UInt32,
+    Name String,
+    Platform String,
+    Year String,
+    Genre String,
+    Publisher String,
+    NA_Sales Float32,
+    EU_Sales Float32,
+    JP_Sales Float32,
+    Other_Sales Float32,
+    Global_Sales Float32');
+---------------------------------------
+Каждая строчка наборов данных содержит следующие поля:
+
+Rank - Рейтинг общих продаж
+Name - Название игры
+Platform - Платформа, на которой была выпущена игра (например, PC, PS4 и т.д.)
+Year - Год выпуска игры
+Genre - Жанр игры
+Publisher - Издатель игры
+NA_Sales - Продажи в Северной Америке (в миллионах)
+EU_Sales - Продажи в Европе (в миллионах)
+JP_Sales - Продажи в Японии (в миллионах)
+Other_Sales - Продажи в остальном мире (в миллионах)
+Global_Sales - Общие мировые продажи.
