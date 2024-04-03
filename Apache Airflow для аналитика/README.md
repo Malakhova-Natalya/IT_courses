@@ -49,7 +49,8 @@
 - 7.1 Ликбез по Docker
 - 7.2 Установка Airflow в контейнере
 
-## Сертификат
+## 📜 Сертификат
+
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/Stepik%20-%20Apache%20Airflow%20для%20аналитика.png)
 
