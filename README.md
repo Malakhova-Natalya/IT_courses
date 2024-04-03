@@ -1,4 +1,4 @@
-# IT_courses
+# IT courses
 
 ## Apache Airflow для аналитика: 
 
