@@ -55,6 +55,16 @@ FROM cross_table
 GROUP BY user, value
 ORDER BY 2 DESC, 3
 )
+
+Решение из курса:
+
+
+select t.user as usr, any(t.value) as val, count(1) as rank
+from table1
+    cross join table1 t
+where t.value <= value
+group by t.user
+order by rank
 --671650
 SELECT sum(rank*value)
 FROM raw_result
