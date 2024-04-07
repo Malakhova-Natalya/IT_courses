@@ -15,4 +15,5 @@
 - 2.4 JOIN и UNION. Мои решения:
   - [Задача на CROSS JOIN и rank](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/03%20-%20задача%20на%20CROSS%20JOIN%20и%20rank.txt "здесь")
   - [Задача на ASOF JOIN](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/04%20-%20задача%20на%20ASOF%20JOIN.txt "здесь")
+  - [Проектная работа по пройденным темам](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/05%20-%20проектная%20работа%20по%20пройденным%20темам.txt "здесь")
 
