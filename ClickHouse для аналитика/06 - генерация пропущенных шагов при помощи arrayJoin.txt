@@ -69,3 +69,21 @@ FROM final_step_number)
 
 SELECT SUM(UID) AS result
 FROM array_join_table
+
+
+Решение преподавателя:
+
+SELECT UID,
+       transform(1 + arrayJoin(range(toUInt8(max(step_id)))), [1, 2, 3, 4, 5, 6, 7, 8], ['step a',
+         'step b',
+         'step c', 'step d', 'step e', 'step f', 'step g', 'step w'], 'none') AS q
+FROM events ANY
+LEFT JOIN
+  (SELECT step_id,
+          step
+   FROM
+     (SELECT arrayJoin(array(('step a', 1), ('step b', 2), ('step c', 3), ('step d', 4), ('step e', 5), ('step f', 6), ('step g', 7), ('step w', 8))) AS tuple,
+             tupleElement(tuple, 1) AS step,
+             tupleElement(tuple, 2) AS step_id)) USING step
+GROUP BY UID
+SETTINGS joined_subquery_requires_alias=0;
