@@ -19,3 +19,4 @@
 - 2.5 Массивы и оконные функции
   - [Генерация пропущенных шагов при помощи arrayJoin](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/06%20-%20генерация%20пропущенных%20шагов%20при%20помощи%20arrayJoin.txt)
   - [Задача на оконные функции по таблице titanic](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/07%20-%20задача%20на%20оконные%20функции%20titanic.txt)
+  - [Задача на разметку сессий с помощью оконных функций и их аналогов в ClickHouse](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/08%20-%20задача%20на%20разметку%20сессий.txt)
