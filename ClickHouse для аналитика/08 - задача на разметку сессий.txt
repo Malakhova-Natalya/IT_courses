@@ -89,3 +89,17 @@ SELECT SUM(sessions) AS result
 FROM sessions_table
 
 
+Решение преподавателя:
+
+select *,        
+       neighbor(id, -1) as lag_id, 
+       neighbor(date, -1) as lag_date,
+       if(id != lag_id, 1, 0) as new_user,
+       if(( date - lag_date > 300) and (new_user != 1), 1, 0) as new_session,
+       new_session + new_user as session,
+       sum(session) OVER (PARTITION BY id ORDER BY id, date) AS sessions
+from(
+ select *
+ from login
+ order by id,date 
+)
