@@ -21,3 +21,4 @@
   - [Задача на оконные функции по таблице titanic](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/07%20-%20задача%20на%20оконные%20функции%20titanic.txt)
   - [Задача на разметку сессий с помощью оконных функций и их аналогов в ClickHouse](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/08%20-%20задача%20на%20разметку%20сессий.txt)
 - 2.6 Работа с JSON и Geo
+- [Задача на парсинг JSON](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/09%20-%20задача%20на%20парсинг%20JSON.txt)
