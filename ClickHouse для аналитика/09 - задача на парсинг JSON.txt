@@ -60,3 +60,11 @@ FROM raw_table)
 SELECT DISTINCT(arraySort(arrayMap(x->toInt64(x), [sum_value,avg_list,avg_key]))[-1]) AS result
 FROM raw_result
 
+
+Решение преподавателя:
+
+select sum(visitParamExtractFloat(json, 'value')),
+       sum(visitParamExtractBool(json, 'is_active')),
+       avg(toInt64(visitParamExtractString(json, 'key'))),
+       avg(arraySum(arrayMap(x -> toInt64(x),JSONExtractArrayRaw(json, 'list'))))
+from table2
