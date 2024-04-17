@@ -63,3 +63,15 @@ SELECT COUNT(*) AS result
 FROM event_city_table 
 WHERE city='Viborg'
 
+Решение преподавателя:
+
+select event, argMin(city, mer), 
+from(
+ select event, long, lat, t.city, t.long, t.lat, 
+        greatCircleDistance(long, lat, t.long, t.lat) * 0.001 as mer
+ from log
+   cross join (select * from big_city) t
+ where mer < 300
+) 
+group by event
+having argMin(city, mer) = 'Viborg'
