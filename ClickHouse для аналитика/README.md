@@ -23,3 +23,4 @@
 - 2.6 Работа с JSON и Geo
   - [Задача на парсинг JSON](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/09%20-%20задача%20на%20парсинг%20JSON.txt)
   - [Задача на поиск ближайших городов с помощью geo json](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/10%20-%20geo%20json.txt)
+  - [Практическая работа по темам JSON, составные типы данных и GEO: задача на поиск ближайшего к МКС города](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/11%20-%20практическая%20работа%20по%20темам%20JSON%2C%20составные%20типы%20данных%20и%20GEO.txt)
