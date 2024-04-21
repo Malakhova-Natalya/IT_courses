@@ -30,4 +30,5 @@
 - 3.1 Базовые метрики. Часть 1. Мои решения:
   - [Описание и создание таблиц login, funnel, finance](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/12%20-%20описание%20и%20создание%20таблиц.txt)
   - [Пример расчёта sticky_factor](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/13%20-%20пример%20расчёта%20sticky_factor.txt)
+  - [Задача на расчёт новых пользователей, совершивших платёж](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/14%20-%20задача%20на%20расчёт%20новых%20пользователей%2C%20совершивших%20платёж.txt)
 - 3.2 Базовые метрики. Часть 2. Мои решения: 
