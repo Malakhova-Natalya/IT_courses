@@ -36,3 +36,14 @@ CROSS JOIN mks_lat_long AS t2)
 
 SELECT argMin(city, diff) AS min_diff_city
 FROM mks_cities_diff
+
+Решение преподавателя:
+
+SELECT argMin(city,
+		 greatCircleDistance(untuple(tuple(longitude,
+		 latitude,
+		 untuple(
+	(SELECT toFloat64(JSONExtractString(JSONExtractString(json,
+		 'iss_position'), 'longitude')), toFloat64(JSONExtractString(JSONExtractString(json, 'iss_position'), 'latitude'))
+	FROM url('http://api.open-notify.org/iss-now.json', JSONAsString, 'json String')))))) * 0.001) AS mc
+FROM cities
