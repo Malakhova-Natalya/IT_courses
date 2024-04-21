@@ -33,3 +33,4 @@
   - [Задача на расчёт новых пользователей, совершивших платёж](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/14%20-%20задача%20на%20расчёт%20новых%20пользователей%2C%20совершивших%20платёж.txt)
 - 3.2 Базовые метрики. Часть 2. Мои решения:
   - [Пример расчёта ARPMAU](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/15%20-%20пример%20расчёта%20ARPMAU.txt)
+  - [Пример расчёта Paying Share](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/16%20-%20пример%20расчёта%20paying_share.txt)
