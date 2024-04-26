@@ -1,0 +1,67 @@
+Описание задачи:
+
+Посчитайте Rolling Retention 3 дня у когорты пришедшей 1 января по таблице login
+
+Формат ответа:
+
+Ответ до 4 знака после запятой.
+
+----------------------------------------------------------------------
+Моё решение:
+
+
+WITH reg_date_table AS (
+SELECT uid,
+MIN(toDate(event_time)) AS user_reg_date
+FROM login
+GROUP BY 1
+HAVING user_reg_date = toDate('2023-01-01')
+)
+, event_table AS (
+SELECT uid, user_reg_date, event_time
+FROM reg_date_table
+LEFT JOIN login USING uid
+)  
+, retention_table AS (
+SELECT uniq(uid) AS reg_users,
+uniqIf(uid, toDate(event_time) >= user_reg_date +3) AS users_day_3,
+users_day_3 / reg_users AS rolling_retention_day_3
+FROM event_table
+)
+SELECT trunc(rolling_retention_day_3, 4) AS result 
+FROM retention_table
+
+----------------------------------------------------------------------
+
+Описание задачи:
+
+Посчитайте отток 3 дня у когорты пришедшей 1 января по таблице login
+
+Формат ответа:
+
+Ответ до 4 знака после запятой.
+
+----------------------------------------------------------------------
+Моё решение:
+
+
+WITH reg_date_table AS (
+SELECT uid,
+MIN(toDate(event_time)) AS user_reg_date
+FROM login
+GROUP BY 1
+HAVING user_reg_date = toDate('2023-01-01')
+)
+, event_table AS (
+SELECT uid, user_reg_date, event_time
+FROM reg_date_table
+LEFT JOIN login USING uid
+)  
+, retention_table AS (
+SELECT uniq(uid) AS reg_users,
+uniqIf(uid, toDate(event_time) >= user_reg_date +3) AS users_day_3,
+users_day_3 / reg_users AS rolling_retention_day_3
+FROM event_table
+)
+SELECT trunc((1 - rolling_retention_day_3), 4) AS result 
+FROM retention_table
