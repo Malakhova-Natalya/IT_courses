@@ -36,3 +36,6 @@
   - [Пример расчёта paying_share](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/16%20-%20пример%20расчёта%20paying_share.txt)
 - 3.3 Когортные метрики. Мои решения:
   - [Примеры расчёта rolling_retention, churn_rate](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/17%20-%20rollimg_retention%2C%20churn_rate.txt)
+  - [Пример расчёта накопительного ARPPU](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/18%20-%20пример%20расчёта%20накопительного%20ARPPU.txt)
+- 3.4 Прогнозирование LTV. Мои решения:
+- 
