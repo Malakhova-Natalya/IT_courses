@@ -1,0 +1,33 @@
+22 - MergeTree Family: пример создания таблицы и нахождения информации о ней
+
+-- создание таблицы
+
+CREATE TABLE mt_table(
+  date Date,
+  type String,
+  value Int64
+) 
+  ENGINE = MergeTree()
+  PARTITION BY toYYYYMM(date)
+  ORDER BY (date, type)
+
+--------------------------------------------------------------------------
+-- наполнение таблицы данными
+
+INSERT INTO mt_table(date, type, value) FORMAT JSONEachRow
+{"date": "2020-03-06", "type": "event3", "value": 6}, {"date": "2020-03-14", "type": "event2", "value": 29}, {"date": "2020-02-21", "type": "event1", "value": 8}, {"date": "2020-03-28", "type": "event3", "value": 4}, {"date": "2020-03-03", "type": "event1", "value": 72}, {"date": "2020-03-10", "type": "event3", "value": 19}, {"date": "2020-03-25", "type": "event3", "value": 10}, {"date": "2020-03-01", "type": "event3", "value": 15}, {"date": "2020-01-27", "type": "event1", "value": 86}, {"date": "2020-03-27", "type": "event3", "value": 78}, {"date": "2020-03-27", "type": "event2", "value": 43}, {"date": "2020-03-13", "type": "event3", "value": 91}, {"date": "2020-02-04", "type": "event3", "value": 23}, {"date": "2020-01-27", "type": "event2", "value": 7}, {"date": "2020-01-25", "type": "event3", "value": 68}, {"date": "2020-02-11", "type": "event2", "value": 64}, {"date": "2020-03-17", "type": "event1", "value": 15}, {"date": "2020-01-16", "type": "event2", "value": 39}, {"date": "2020-02-23", "type": "event2", "value": 63}, {"date": "2020-01-13", "type": "event3", "value": 71}, {"date": "2020-01-27", "type": "event3", "value": 89}, {"date": "2020-01-20", "type": "event2", "value": 44}, {"date": "2020-03-18", "type": "event1", "value": 23}, {"date": "2020-01-28", "type": "event3", "value": 7}, {"date": "2020-02-19", "type": "event2", "value": 98}, {"date": "2020-02-19", "type": "event3", "value": 81}, {"date": "2020-03-03", "type": "event3", "value": 22}, {"date": "2020-03-01", "type": "event3", "value": 95}, {"date": "2020-03-01", "type": "event1", "value": 13}, {"date": "2020-03-02", "type": "event3", "value": 79}, {"date": "2020-01-30", "type": "event1", "value": 36}, {"date": "2020-01-06", "type": "event1", "value": 36}, {"date": "2020-01-18", "type": "event1", "value": 98}, {"date": "2020-03-13", "type": "event2", "value": 61}, {"date": "2020-03-26", "type": "event1", "value": 31}, {"date": "2020-03-06", "type": "event3", "value": 15}, {"date": "2020-02-02", "type": "event1", "value": 40}, {"date": "2020-03-24", "type": "event1", "value": 10}, {"date": "2020-03-03", "type": "event3", "value": 74}, {"date": "2020-03-10", "type": "event3", "value": 7}, {"date": "2020-02-27", "type": "event2", "value": 39}, {"date": "2020-01-29", "type": "event3", "value": 68}, {"date": "2020-03-15", "type": "event3", "value": 50}, {"date": "2020-02-12", "type": "event2", "value": 35}, {"date": "2020-01-13", "type": "event1", "value": 96}, {"date": "2020-01-24", "type": "event2", "value": 11}, {"date": "2020-01-04", "type": "event2", "value": 7}, {"date": "2020-02-02", "type": "event2", "value": 73}, {"date": "2020-01-22", "type": "event3", "value": 11}, {"date": "2020-02-29", "type": "event2", "value": 99}, {"date": "2020-02-09", "type": "event1", "value": 84}, {"date": "2020-01-25", "type": "event2", "value": 46}, {"date": "2020-03-12", "type": "event3", "value": 89}, {"date": "2020-01-07", "type": "event2", "value": 44}, {"date": "2020-03-07", "type": "event1", "value": 45}, {"date": "2020-03-19", "type": "event2", "value": 64}, {"date": "2020-01-25", "type": "event2", "value": 38}, {"date": "2020-01-27", "type": "event2", "value": 36}, {"date": "2020-01-11", "type": "event3", "value": 82}, {"date": "2020-01-10", "type": "event3", "value": 40}, {"date": "2020-02-06", "type": "event1", "value": 84}, {"date": "2020-03-10", "type": "event2", "value": 51}, {"date": "2020-01-11", "type": "event2", "value": 7}, {"date": "2020-02-04", "type": "event2", "value": 73}, {"date": "2020-01-10", "type": "event3", "value": 46}, {"date": "2020-01-18", "type": "event2", "value": 24}, {"date": "2020-01-12", "type": "event3", "value": 51}, {"date": "2020-01-18", "type": "event2", "value": 19}, {"date": "2020-03-19", "type": "event2", "value": 67}, {"date": "2020-01-31", "type": "event2", "value": 32}, {"date": "2020-01-05", "type": "event2", "value": 41}, {"date": "2020-01-23", "type": "event1", "value": 6}, {"date": "2020-01-02", "type": "event3", "value": 9}, {"date": "2020-03-13", "type": "event3", "value": 7}, {"date": "2020-03-25", "type": "event1", "value": 21}, {"date": "2020-01-29", "type": "event2", "value": 33}, {"date": "2020-02-22", "type": "event2", "value": 27}, {"date": "2020-03-18", "type": "event2", "value": 8}, {"date": "2020-01-20", "type": "event1", "value": 76}, {"date": "2020-02-27", "type": "event3", "value": 68}, {"date": "2020-01-26", "type": "event3", "value": 64}, {"date": "2020-02-22", "type": "event1", "value": 54}, {"date": "2020-02-19", "type": "event2", "value": 50}, {"date": "2020-02-22", "type": "event2", "value": 30}, {"date": "2020-01-23", "type": "event2", "value": 51}, {"date": "2020-01-19", "type": "event1", "value": 9}, {"date": "2020-03-24", "type": "event3", "value": 5}, {"date": "2020-03-01", "type": "event1", "value": 54}, {"date": "2020-01-10", "type": "event2", "value": 71}, {"date": "2020-02-27", "type": "event2", "value": 64}, {"date": "2020-01-19", "type": "event3", "value": 68}, {"date": "2020-02-14", "type": "event1", "value": 97}, {"date": "2020-03-19", "type": "event1", "value": 60}, {"date": "2020-03-21", "type": "event3", "value": 4}, {"date": "2020-03-22", "type": "event2", "value": 78}, {"date": "2020-02-26", "type": "event2", "value": 32}, {"date": "2020-01-17", "type": "event1", "value": 94}, {"date": "2020-01-21", "type": "event2", "value": 77}, {"date": "2020-03-10", "type": "event2", "value": 39}, {"date": "2020-03-13", "type": "event1", "value": 30}
+
+--------------------------------------------------------------------------------
+
+-- запрос в системную таблицу - посмотреть, где лежат данные, какой движок, 
+-- какие партиции, какая сортировка и др.информация
+select *
+from system.tables
+where name = 'mt_table'
+
+
+
+-- запрос к таблице parts - посмотреть, как хранятся данные (партиции)
+select *
+from system.parts
+where table = 'mt_table'
