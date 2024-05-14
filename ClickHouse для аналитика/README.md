@@ -53,6 +53,7 @@
   - [Пример создания таблицы и и нахождения информации о ней при помощи обращения к system.tables и system.parts](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/22%20-%20MergeTree%20Family.txt)
   - [Создание таблицы, генерация данных, вставка полученных данных в таблицу, описание таблицы при помощи DESCRIBE TABLE](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/23%20-%20MergeTree%20Family%20-%20задание%20из%20двух%20частей.ipynb)
   - [Пример создания таблицы с движком ReplacingMergeTree](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/24%20-%20ReplacingMergeTree.ipynb)
+  - [Пример создания таблицы с движком AggregatingMergeTree](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/25%20-%20AggregatingMergeTree.ipynb)
 - 5.2 Другие движки
 
 ## 🗂️ 6: Эксплуатация
