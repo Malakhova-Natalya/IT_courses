@@ -1,9 +1,11 @@
 Описание задачи:
 
-Предлагаю в этом задании вам самостоятельно изучить движок для чтения данных по URL. Вам необходимо выгрузить таблицу по этому адресу https://raw.githubusercontent.com/datanlnja/clickhouse_course/main/5.2/5
+Предлагаю в этом задании вам самостоятельно изучить движок для чтения данных по URL. 
+Вам необходимо выгрузить таблицу по этому адресу https://raw.githubusercontent.com/datanlnja/clickhouse_course/main/5.2/5
 
 В ответ прислать sum(value)
 --------------------------------------------------------------------------------------
 Моё решение:
 
-SELECT sum(value) FROM url('https://raw.githubusercontent.com/datanlnja/clickhouse_course/main/5.2/5', CSV, 'currency String, value Int64, date String')
+SELECT sum(value) 
+FROM url('https://raw.githubusercontent.com/datanlnja/clickhouse_course/main/5.2/5', CSV, 'currency String, value Int64, date String')
