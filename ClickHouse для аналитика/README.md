@@ -56,6 +56,7 @@
   - [Пример создания таблицы с ENGINE=AggregatingMergeTree()](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/25%20-%20AggregatingMergeTree.ipynb)
   - [Создание Materialized View и парсинг json - сырые данные при вставке в основную таблицу в MV видны по колонкам](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/26%20-%20Materialized%20View%20%2B%20json.txt)
 - 5.2 Другие движки
+  - [таблица с ENGINE=Log --> таблица с ENGINE=MergeTree + поле insert_time](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/27%20-%20Log)
 
 ## 🗂️ 6: Эксплуатация
 ✒️ разделы:
