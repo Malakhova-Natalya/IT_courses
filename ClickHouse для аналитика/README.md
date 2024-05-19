@@ -59,6 +59,7 @@
   - [Таблица с ENGINE=Log --> таблица с ENGINE=MergeTree + поле insert_time](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/27%20-%20Log)
   - [Таблица с ENGINE=S3, тип данных CSV](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/28%20-%20s3.txt)
   - [Таблица с ENGINE=S3, тип данных Parquet](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/29%20-%20parquet.txt)
+  - [Обращение напрямую через url](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/30%20-%20url.txt)
 
 ## 🗂️ 6: Эксплуатация
 ✒️ разделы:
