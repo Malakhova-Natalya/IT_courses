@@ -57,6 +57,8 @@
   - [Создание Materialized View и парсинг json - сырые данные при вставке в основную таблицу в MV видны по колонкам](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/26%20-%20Materialized%20View%20%2B%20json.txt)
 - 5.2 Другие движки
   - [таблица с ENGINE=Log --> таблица с ENGINE=MergeTree + поле insert_time](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/27%20-%20Log)
+  - [таблица с ENGINE=S3, тип данных CSV)(https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/28%20-%20s3.txt)
+  - [таблица с ENGINE=S3, тип данных Parquet)(https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/29%20-%20parquet.txt)
 
 ## 🗂️ 6: Эксплуатация
 ✒️ разделы:
