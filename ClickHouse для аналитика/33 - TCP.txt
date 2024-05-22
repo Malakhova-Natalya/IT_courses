@@ -1,0 +1,16 @@
+Описание задачи:
+
+В данном уроке вам предстоит загрузить в Clickhouse CSV файл с помощью clickhouse-driver! При решении вы столкнетесь с проблемой конвертации типов данных. Это можно обойти использовав такой подход
+
+select * from url( ... )
+Тем не менее есть вариант решения задачи только через Python код. Будет принято любое решение.
+
+Формат ответа:
+
+В качестве ответа прислать sum(value) округлить до целых в любую сторону
+
+Прим: ссылка на CSV файл: https://stepik.org/media/attachments/course/100210/csvjson.csv
+
+# Решение
+
+Ссылка на Google Collab с выполненным заданием: https://colab.research.google.com/drive/1m_qpkrDGN8slEQFcyk2rL_IiKwOboNDT?authuser=1#scrollTo=ArH4cYBoTWNv
