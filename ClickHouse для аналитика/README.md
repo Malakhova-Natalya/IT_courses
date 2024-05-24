@@ -68,6 +68,7 @@
   - [HTTP-интерфейс - ipynb файл](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/32%20-%20HTTP.ipynb) или [HTTP-интерфейс - txt файл](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/32%20-%20HTTP.txt)
   - [TCP-интерфейс - ipynb файл](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/33%20-%20TCP.ipynb) или [TCP-интерфейс - txt файл](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/33%20-%20TCP.txt)
 - 6.2 Эксплуатация
+  - [Запросы к системным таблицам](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/34%20-%20системные%20таблицы.txt)
 
 ## 🗂️ 7:  Моделирование
 ✒️ разделы:
