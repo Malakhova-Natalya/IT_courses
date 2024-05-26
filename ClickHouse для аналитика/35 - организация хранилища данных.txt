@@ -1,0 +1,315 @@
+Описание задачи:
+
+В данном задании я предлагаю вам создать схему данных, то есть вам необходимо будет написать DDL код для формирования таблиц в ClickHouse, выбрать движки для каждой таблицы, а также предоставить графически логическую модель. Я решил сделать это задание творческим. В нем нет правильного ответа, единственное что требуется это используя "правильный" сценарий работы для ClickHouse реализовать свою схему. Оцениваться задание будет в 3 балла, чем "более правильная модель" тем больше баллов. К каждому решению я предоставлю развернутый комментарий если модель на мой взгляд оказалась не очень удачной.
+
+Итак, у вас есть несколько источников данных для мобильной игры:
+
+Финансовые данные:
+
+- Транзакции из Android с такой схемой данных: order_id, value, country_code, date
+- Транзакции из Apple с такой схемой данных:  value, country_code, date
+
+Данные логов:
+
+События приложения
+ - login: date, user_id
+- click: date, description, user_id
+- purchase:  date, description, platform (Android или Apple), user_id, country_code, order_id (если есть)
+
+Прочие таблицы:
+
+- Таблица со странами, помните в прошлом модуле мы с таким работали: country_code, country_name
+
+- Таблица с курсами валют LOCAL:USD в формате: date, country_code, value
+
+Решение:
+
+1. Набор временных таблиц для каждого источника
+2. Графическая схема конечного хранилища данных
+3. SQL запросы или/схема конечного хранилища  
+
+------------------------------------------------------------------------------------
+
+-- Моё решение:
+
+-- Все таблицы сырых данных начинаются с raw_
+
+-- Финансовые данные:  raw_finance_
+
+CREATE TABLE raw_finance_android -
+(
+    `order_id` UInt64,
+
+    `value` Int64,
+
+    `country_code` LowCardinality(String),
+
+    `date` Date
+)
+ENGINE = MergeTree
+PARTITION BY toYYYYMM(date)
+ORDER BY date
+SETTINGS index_granularity = 8192;
+
+CREATE TABLE raw_finance_apple 
+(
+    `value` Int64,
+
+    `country_code` LowCardinality(String),
+
+    `date` Date
+)
+ENGINE = MergeTree
+PARTITION BY toYYYYMM(date)
+ORDER BY date
+SETTINGS index_granularity = 8192;
+
+
+-- Данные логов: raw_log_
+
+
+CREATE TABLE raw_log_login 
+(
+    `date` Date,
+
+    `user_id` UInt64
+)
+ENGINE = Log;
+
+CREATE TABLE raw_log_click
+(
+    `date` Date,
+
+    `description` String,
+
+    `user_id` UInt64
+)
+ENGINE = Log;
+
+CREATE TABLE raw_log_purchase
+(
+    `date` Date,
+
+    `description` String,
+
+    `platform` LowCardinality(String),
+
+    `user_id` UInt64,
+
+    `country_code` LowCardinality(String),
+
+    `order_id` UInt64
+)
+ENGINE = Log;
+
+-- Прочие таблицы: raw_registry_
+
+
+CREATE TABLE raw_registry_country 
+(
+    `country_code` LowCardinality(String),
+
+    `country_name` LowCardinality(String)
+
+)
+ENGINE = MergeTree;
+
+CREATE TABLE raw_registry_currency 
+(
+    `date` Date,
+
+    `country_code` LowCardinality(String),
+
+    `value` Float
+
+)
+ENGINE = MergeTree;
+
+
+-- 2. Графическая схема конечного хранилища данных (файл)
+
+-- 3. SQL запросы или/схема конечного хранилища  
+
+-- чтобы дойти до финальной модели хранилища - таблицы full_table - нам понадобятся временные таблицы: они начинаются с tmp_
+
+-----------------------------
+
+CREATE TABLE tmp_log
+(
+    `date` Date,
+
+    `description` String,
+
+    `platform` LowCardinality(String),
+
+    `user_id` UInt64,
+
+    `country_code` LowCardinality(String),
+
+    `order_id` UInt64, 
+
+    `login_date` Date,
+
+    `click_date` Date,
+
+    `click_description` String
+)
+ENGINE = Log;
+
+
+INSERT INTO tmp_log
+(
+SELECT p.date, description, toLowCardinality(platform), p.user_id, toLowCardinality(country_code), order_id,
+	login_date, click_date, click_description
+FROM raw_log_purchase p
+LEFT JOIN 
+	(SELECT t1.date AS login_date, t1.user_id AS user_id, t2.date AS click_date, t2.description AS click_description 
+	FROM raw_log_login t1
+	LEFT JOIN raw_log_click t2 USING(user_id)
+	) l USING(user_id)
+)
+
+-----------------------------
+
+CREATE TABLE tmp_registry 
+(
+    `date` Date,
+
+    `country_code` LowCardinality(String),
+
+    `country_name` LowCardinality(String),
+
+    `value` Float
+
+)
+ENGINE = Log;
+
+INSERT INTO tmp_registry
+(
+SELECT date, toLowCardinality(country_code) AS country_code, toLowCardinality(country_name) AS country_name, value
+FROM raw_registry_currency 
+LEFT JOIN raw_registry_country USING(country_code)
+)
+
+-----------------------------
+
+CREATE TABLE tmp_log_registry
+(
+    `date` Date,
+
+    `description` String,
+
+    `platform` LowCardinality(String),
+
+    `user_id` UInt64,
+
+    `country_code` LowCardinality(String),
+
+    `order_id` UInt64, 
+
+    `login_date` Date,
+
+    `click_date` Date,
+
+    `click_description` String,
+
+    `country_name` LowCardinality(String),
+
+    `currency_value` Float
+)
+ENGINE = Log;
+
+INSERT INTO tmp_registry
+(
+SELECT tmp_log.*, country_name, value AS currency_value
+FROM tmp_log
+LEFT JOIN tmp_registry USING(date, country_code)
+)
+-----------------------------
+
+CREATE TABLE tmp_finance_android
+(
+    `order_id` UInt64,
+
+    `value` Int64,
+
+    `country_code` LowCardinality(String),
+
+    `date` Date,
+
+    `platform' LowCardinality(String)
+)
+ENGINE = Log;
+
+INSERT INTO tmp_finance_android
+(
+SELECT order_id, value, toLowCardinality(country_code) AS country_code, date, toLowCardinality('Android') AS platform
+FROM raw_finance_android
+)
+
+-----------------------------
+
+CREATE TABLE tmp_finance_apple
+(
+    `value` Int64,
+
+    `country_code` LowCardinality(String),
+
+    `date` Date,
+
+    `platform' LowCardinality(String)
+)
+ENGINE = Log;
+
+INSERT INTO tmp_finance
+(
+SELECT value, toLowCardinality(country_code) AS country_code, date, toLowCardinality('Apple') AS platform
+FROM raw_finance_apple
+)
+
+-----------------------------
+
+CREATE TABLE full_table
+(
+    `date` Date,
+
+    `description` String,
+
+    `platform` LowCardinality(String),
+
+    `user_id` UInt64,
+
+    `country_code` LowCardinality(String),
+
+    `order_id` UInt64, 
+
+    `login_date` Date,
+
+    `click_date` Date,
+
+    `click_description` String, 
+
+    `value` Float, 
+
+    `country_name` LowCardinality(String),
+
+    `currency_value` Float
+)
+ENGINE = MergeTree
+PARTITION BY toYYYYMM(date)
+ORDER BY date
+SETTINGS index_granularity = 8192;
+
+INSERT INTO full_table
+(
+SELECT date, description, toLowCardinality(platform) AS platform, user_id, toLowCardinality(country_code) AS country_code, order_id, login_date, click_date, click_description,
+	value,
+	toLowCardinality(country_name) AS country_name, currency_value
+FROM (
+	SELECT date, description, platform, user_id, country_code, order_id, login_date, click_date, click_description, value, country_name, currency_value
+	FROM tmp_log_registry 
+	LEFT JOIN tmp_finance_android USING(order_id, platform, country_code, date)
+	) andr
+LEFT JOIN tmp_finance_apple USING(platform, country_code, date)
+)
+-----------------------------
