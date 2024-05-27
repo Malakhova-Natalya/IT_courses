@@ -19,4 +19,4 @@
 Курс на платформе Stepik: [здесь](https://stepik.org/course/95367/syllabus "здесь")
 
 
-Мои решения: [здесь]( "здесь")
+Мои решения: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/Оконные%20функции%20SQL "здесь")
