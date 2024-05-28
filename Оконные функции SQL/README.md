@@ -14,6 +14,7 @@
   - [Самые дорогие коллеги - пример на dense_rank() + CTE](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/02%20-%20самые%20дорогие%20коллеги.txt)
 - 2.3 Смещение
   - [Следующий и предыдущий - пример на lag() и lead()](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/03%20-%20следующий%20и%20предыдущий.txt)
+  - [Процент от максимальной зарплаты в городе - пример на first_value()](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/04%20-%20процент%20от%20максимальной%20зарплаты%20в%20городе.txt)
 - 2.4 Агрегация
 - 2.5 Скользящие агрегаты
 - 2.6 Статистика
