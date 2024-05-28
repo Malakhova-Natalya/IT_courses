@@ -10,9 +10,10 @@
 ✒️ разделы:
 - 2.1 Песочница и данные 
 - 2.2 Ранжирование. Мои решения:
-  - [Группы по зарплате в городах - пример на ntile](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/01%20-%20группы%20по%20зарплате%20в%20городах.txt "здесь")
-  - [Самые дорогие коллеги - пример на dense_rank + CTE](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/02%20-%20самые%20дорогие%20коллеги.txt "здесь")
+  - [Группы по зарплате в городах - пример на ntile()](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/01%20-%20группы%20по%20зарплате%20в%20городах.txt)
+  - [Самые дорогие коллеги - пример на dense_rank() + CTE](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/02%20-%20самые%20дорогие%20коллеги.txt)
 - 2.3 Смещение
+  - [Следующий и предыдущий - пример на lag() и lead()](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/03%20-%20следующий%20и%20предыдущий.txt)
 - 2.4 Агрегация
 - 2.5 Скользящие агрегаты
 - 2.6 Статистика
