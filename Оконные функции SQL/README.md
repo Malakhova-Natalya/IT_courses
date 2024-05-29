@@ -16,8 +16,8 @@
   - [Следующий и предыдущий - пример на lag() и lead()](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/03%20-%20следующий%20и%20предыдущий.txt)
   - [Процент от максимальной зарплаты в городе - пример на first_value()](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/04%20-%20процент%20от%20максимальной%20зарплаты%20в%20городе.txt)
 - 2.4 Агрегация
-  - [Фонд оплаты труда по городу - пример на sum() over](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/5%20-%20фонд%20оплаты%20труда%20по%20городу.txt)
-  - [Средняя зарплата по департаменту - пример на avg() и count() over](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/6%20-%20средняя%20зарплата%20по%20департаменту.txt)
+  - [Фонд оплаты труда по городу - пример на sum() over](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/05%20-%20фонд%20оплаты%20труда%20по%20городу.txt)
+  - [Средняя зарплата по департаменту - пример на avg() и count() over](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/06%20-%20средняя%20зарплата%20по%20департаменту.txt)
 - 2.5 Скользящие агрегаты
   - [Скользящее среднее по доходам]()
 - 2.6 Статистика
