@@ -20,7 +20,7 @@
   - [Средняя зарплата по департаменту - пример на avg() и count() over](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/06%20-%20средняя%20зарплата%20по%20департаменту.txt)
 - 2.5 Скользящие агрегаты
   - [Скользящее среднее по доходам - пример на rows between](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/07%20-%20скользящее%20среднее%20по%20доходам.txt)
-  - [Фонд оплаты труда нарастающим итогом]()
+  - [Фонд оплаты труда нарастающим итогом - пример на partition, order, rows between](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/08%20-%20фонд%20оплаты%20труда%20нарастающим%20итогом.txt)
 - 2.6 Статистика
 - 2.7 Резюме
 
