@@ -32,6 +32,7 @@
 ✒️ разделы:  
 - ROWS и GROUPS
   - [ROWS-фрейм - пример на два окна и rows between](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/13%20-%20ROWS-фрейм.txt)
+  - [GROUPS-фрейм - пример на cume_dist DESC](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/14%20-%20GROUPS-фрейм.txt)
 - RANGE
 - EXCLUDE
 - FILTER
