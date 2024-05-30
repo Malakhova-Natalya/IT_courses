@@ -35,6 +35,7 @@
   - [GROUPS-фрейм - пример на cume_dist desc](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/14%20-%20GROUPS-фрейм.txt)
   - [GROUPS-фрейм ближайшая большая зарплата- пример на groups between без current row](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/15%20-%20GROUPS-фрейм%20-%20ближайшая%20большая%20зарплата.txt)
 - RANGE
+  - [RANGE-фрейм - пример на range between](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/16%20-%20RANGE-фрейм.txt)
 - EXCLUDE
 - FILTER
 - Резюме
