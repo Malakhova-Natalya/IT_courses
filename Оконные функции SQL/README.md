@@ -42,6 +42,7 @@
 - FILTER
   - [Сравненте з/п со средней по городу - пример на FILTER](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/19%20-%20сравнение%20зп%20со%20средней%20по%20городу.txt)
   - [FILTER → CASE](https://github.com/Malakhova-Natalya/IT_courses/blob/main/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20SQL/20%20-%20FILTER%20%E2%86%92%20CASE.txt)
+  - [Меньше ИТ, больше HR - пример на case when внутри sum](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/21%20-%20Меньше%20ИТ%2C%20больше%20HR.txt)
 - Резюме
 
 ## 🗂️ 4: Практика
