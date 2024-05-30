@@ -41,6 +41,7 @@
   - [EXCLUDE - пример на исключение записи внутри определения окна](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/18%20-%20EXCLUDE.txt)
 - FILTER
   - [Сравненте з/п со средней по городу - пример на FILTER](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/19%20-%20сравнение%20зп%20со%20средней%20по%20городу.txt)
+  - [FILTER → CASE](https://github.com/Malakhova-Natalya/IT_courses/blob/main/%D0%9E%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20SQL/20%20-%20FILTER%20%E2%86%92%20CASE.txt)
 - Резюме
 
 ## 🗂️ 4: Практика
