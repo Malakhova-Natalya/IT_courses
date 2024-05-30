@@ -38,6 +38,7 @@
   - [RANGE-фрейм - пример на range between](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/16%20-%20RANGE-фрейм.txt)
   - [RANGE-фрейм - пример на range between preceding and preceding](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/17%20-%20RANGE-фрейм%20-%20макисмальное%20значение%20среди%20меньших%20в%20диапазоне.txt)
 - EXCLUDE
+  - [EXCLUDE - пример на исключение записи внутри определения окна](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/18%20-%20EXCLUDE.txt)
 - FILTER
 - Резюме
 
