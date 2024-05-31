@@ -52,6 +52,7 @@
   - [выручка по тарифам за 1 квартал - пример на накопительную сумму по секциям](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/23%20-%20выручка%20по%20тарифам%20за%201%20квартал.txt)
   - [скользящее среднее по тарифу platinum - пример на preceding и following](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/24%20-%20скользящее%20среднее%20по%20тарифу%20platinum.txt)
   - [сравнение с декабрем - пример на границы фрейма](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/25%20-%20сравнение%20с%20декабрем.txt)
+  - [вклад тарифов - пример на CTE и оконную функцию](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/26%20-%20вклад%20тарифов.txt)
 - Кластеризация
 - Очистка данных
 - Итоги
