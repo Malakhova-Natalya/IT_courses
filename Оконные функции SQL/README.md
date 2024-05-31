@@ -55,6 +55,7 @@
   - [Вклад тарифов - пример на CTE и оконную функцию](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/26%20-%20вклад%20тарифов.txt)
   - [Высокая, средняя и низкая выручка - пример на CTE и NTILE](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/27%20-%20высокая%2C%20средняя%20и%20низкая%20выручка.txt)
   - [2020 vs 2019 - задача со звёздочкой](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/28%20-%202020%20vs%202019.txt)
+  - [Рейтинг месяцев по продажам - задача со звёздочкой](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/29%20-%20рейтинг%20месяцев%20по%20продажам.txt)
 - Кластеризация
 - Очистка данных
 - Итоги
