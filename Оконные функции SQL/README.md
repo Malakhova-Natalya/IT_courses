@@ -53,6 +53,7 @@
   - [Скользящее среднее по тарифу platinum - пример на preceding и following](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/24%20-%20скользящее%20среднее%20по%20тарифу%20platinum.txt)
   - [Сравнение с декабрем - пример на границы фрейма](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/25%20-%20сравнение%20с%20декабрем.txt)
   - [Вклад тарифов - пример на CTE и оконную функцию](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/26%20-%20вклад%20тарифов.txt)
+  - [Высокая, средняя и низкая выручка - пример на CTE и NTILE](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/27%20-%20высокая%2C%20средняя%20и%20низкая%20выручка.txt)
 - Кластеризация
 - Очистка данных
 - Итоги
