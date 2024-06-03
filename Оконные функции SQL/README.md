@@ -57,6 +57,7 @@
   - [2020 vs 2019 - задача со звёздочкой](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/28%20-%202020%20vs%202019.txt)
   - [Рейтинг месяцев по продажам - задача со звёздочкой](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/29%20-%20рейтинг%20месяцев%20по%20продажам.txt)
 - Кластеризация
-  -[Серия без перерывов - острова по дате для пользователя](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/30%20-%20серия%20без%20перерывов.txt)
+  - [Серия без перерывов - острова по дате для пользователя](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/30%20-%20серия%20без%20перерывов.txt)
+  - [Серия с возрастанием очков](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/31%20-%20серия%20с%20возрастанием%20очков.txt)
 - Очистка данных
 - Итоги
