@@ -60,4 +60,5 @@
   - [Серия без перерывов - острова по дате для пользователя](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/30%20-%20серия%20без%20перерывов.txt)
   - [Серия с возрастанием очков](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/31%20-%20серия%20с%20возрастанием%20очков.txt)
 - Очистка данных
+  - [Осадки в апреле](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/32%20-%20осадки%20в%20апреле.txt)
 - Итоги
