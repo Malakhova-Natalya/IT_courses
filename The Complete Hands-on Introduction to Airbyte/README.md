@@ -7,6 +7,9 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 ✒️ разделы:
 - Welcome!
 - Prerequisites
+Для прохождения курса понадобится Docker, аккаунт на AWS, знание Python будет плюсом.
+- Who am I?
+ Автор - дата-инженер из Франции. Автор курсов по Airflow. 
 
 ## 🗂️ 2: Airbyte Fundamentals
 ✒️ разделы:
