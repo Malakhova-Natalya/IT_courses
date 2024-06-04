@@ -68,4 +68,4 @@
 ## 📜 Сертификат
 
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/Stepik%20-%20ClickHouse%20для%20аналитика.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/Stepik%20-%20Оконные%20функции%20SQL.pdf)
