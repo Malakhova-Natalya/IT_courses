@@ -6,6 +6,12 @@
 
 Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Docker%20с%20нуля/final_opinion.md)
 
+## 🗃️ Jinja, Macros, Packages (dbt)
+
+Курс на платформе : [здесь]()
+
+Мой отзыв/разбор: [здесь]()
+
 ## 🗃️ Apache Airflow для аналитика
 
 Курс на платформе Stepik: [здесь](https://stepik.org/course/99527/syllabus)
