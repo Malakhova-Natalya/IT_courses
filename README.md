@@ -17,6 +17,8 @@
 
 Мои решения: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/ClickHouse%20для%20аналитика)
 
+Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/final_opinion.md)
+
 ## 🗃️ Оконные функции SQL
 
 Курс на платформе Stepik: [здесь](https://stepik.org/course/95367/syllabus)
