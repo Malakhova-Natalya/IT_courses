@@ -38,7 +38,7 @@
 
 ## 🗃️ The Complete Hands-on Introduction to Airbyte
 
-Курс на платформе Udemy: [здесь](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/)
+Курс на платформе Udemy: [здесь](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/) (нужен VPN)
 
 
 Мои решения: [здесь]()
