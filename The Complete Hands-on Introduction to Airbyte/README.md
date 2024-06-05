@@ -63,10 +63,28 @@ Airbyte используется для задач загрузки данных
 Основные понятия в Airbyte:
 - source - источник данных
 - destination - место назначения
+
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/05%20-%20source%20and%20destination.png)
+
+  
 - connector - коннектор это, можно так сказать, проводник - это технический компонент, который собственно скачивает или загружает данные
+
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/06%20-%20connector.png)
+
+  
 - stream - стрим можно обозначить как поток данных - группа связанных данных, например, отдельный лист в google sheets
+
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/07%20-%20stream.png)
+
+  
 - field - поле - это, например, отдельная это колонка в данных
+
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/08%20-%20field.png)
+
+  
 - connection - соединение - его можно рассматривать как автоматизированный пайплайн, который копирует данные из источника в место назначения. К нему пользователь может задавать настройки, например, частоту соединения, способ добавления данных (добавление овых записеей к имеющимся или полная перезапись)
+
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/09%20-%20connection.png)
 
 
 
