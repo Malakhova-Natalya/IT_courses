@@ -20,8 +20,9 @@
 
 Курс на платформе Stepik: [здесь](https://stepik.org/course/95367/syllabus)
 
-
 Мои решения: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/Оконные%20функции%20SQL)
+
+Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/final_opinion.md)
 
 ## 🗃️ The Complete Hands-on Introduction to Airbyte
 
