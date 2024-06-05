@@ -146,7 +146,7 @@ Airbyte обрабатывает данные порциями, поэтому �
 
 Предположим, у вас есть два разных приложения. Одно использует python 3.6, другое - python 3.8. Вы можете установить их в разные контейнеры, чтобы не возникло конфликта версий.
 
-    ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/16%20-%20Docker%20containers.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/16%20-%20Docker%20containers.png)
 
   
 ## 🗂️ 4: Advanced Concepts
