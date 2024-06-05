@@ -4,7 +4,7 @@
 
 Курс на платформе Karpov.Courses: [здесь](https://karpov.courses/docker?_gl=1*ueot3m*_ga*ODc5ODgxODYzLjE3MDU1Njc1MzE.*_ga_DZP7KEXCQQ*MTcwNzcyMTkwNC40NC4xLjE3MDc3MjE5MTcuNDcuMC4w)
 
-Мой отзыв/разбор: [здесь]()
+Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Docker%20с%20нуля/final_opinion.md)
 
 ## 🗃️ Apache Airflow для аналитика
 
