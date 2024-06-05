@@ -38,6 +38,7 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 - **6. What is Airbyte?**
 
 Open-source data-integration tool that moves data from one system to another
+
 Benefits:
   - Open-Source (на практике это значит, что вы можете залезть в код любого коннектора и изменить его под себя + это достаточно большое community)
   - User Interface & User Experience (документация и подсказки в самом Airbyte)
