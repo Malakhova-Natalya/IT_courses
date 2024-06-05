@@ -42,6 +42,10 @@ Benefits:
 
 Where does it fit in your pipelines?
 
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/01%20-%20Airbyte%20in%20ELT%20ETL%20processes.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/02%20-%20Airbyte%20in%20ELT%20ETL%20processes.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/03%20-%20Airbyte%20in%20ELT%20ETL%20processes.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/04%20-%20Airbyte%20in%20ELT%20ETL%20processes.png)
 ## 🗂️ 3: Getting Started with Airbyte
 
 ## 🗂️ 4: Advanced Concepts
