@@ -8,9 +8,9 @@
 
 ## 🗃️ Jinja, Macros, Packages (dbt)
 
-Курс на платформе : [здесь]()
+Курс на платформе : [здесь](https://courses.getdbt.com/courses/take/jinja-macros-packages/texts/30200737-welcome)
 
-Мой отзыв/разбор: [здесь]()
+Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Jinja%2C%20Macros%2C%20Packages/final_opinion.md)
 
 ## 🗃️ Apache Airflow для аналитика
 
