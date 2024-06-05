@@ -7,6 +7,9 @@
 
 Мои решения: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/Apache%20Airflow%20для%20аналитика)
 
+
+Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/final_opinion.md)
+
 ## 🗃️ ClickHouse для аналитика
 
 Курс на платформе Stepik: [здесь](https://stepik.org/course/100210/syllabus)
