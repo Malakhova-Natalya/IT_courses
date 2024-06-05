@@ -16,7 +16,7 @@
 
 Курс на платформе Stepik: [здесь](https://stepik.org/course/99527/syllabus)
 
-Мои решения: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/Apache%20Airflow%20для%20аналитика)
+**Мои решения:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/Apache%20Airflow%20для%20аналитика)
 
 Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Apache%20Airflow%20для%20аналитика/final_opinion.md)
 
@@ -24,7 +24,7 @@
 
 Курс на платформе Stepik: [здесь](https://stepik.org/course/100210/syllabus)
 
-Мои решения: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/ClickHouse%20для%20аналитика)
+**Мои решения:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/ClickHouse%20для%20аналитика)
 
 Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/ClickHouse%20для%20аналитика/final_opinion.md)
 
@@ -32,7 +32,7 @@
 
 Курс на платформе Stepik: [здесь](https://stepik.org/course/95367/syllabus)
 
-Мои решения: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/Оконные%20функции%20SQL)
+**Мои решения:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/Оконные%20функции%20SQL)
 
 Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Оконные%20функции%20SQL/final_opinion.md)
 
