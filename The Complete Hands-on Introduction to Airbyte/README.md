@@ -97,24 +97,30 @@ Airbyte используется для задач загрузки данных
   
 - Airbyte WebApp - пользовательский интерфейс (подключается на 8000 порту)
 
-  ![cover]()
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/11%20-%20Airbyte%20WebApp.png)
 
   
 - Airbyte Server (API) - API технически исполняет то, что "заказывает" пользователь в интерфейсе
 
-  ![cover]()
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/12%20-%20Airbyte%20Server%20(API).png)
 
   
 - Temporal (Scheduler) - open source orchestrator - его функция запускать по времени процессы, запрашиваемые API: синхронизация, проверки и тд. Он ставит запросы в очередь
 
-  ![cover]()
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/13%20-%20Temporal%20(Scheduler).png)
 
   
 - Airbyte Worker - берёт запросы из очереди и исполняет их
 
-  ![cover]()
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/14%20-%20Airbyte%20Worker.png)
 
+Полная схема на примере выглядит так:
 
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/15%20-%20core%20components%20full%20schema.png)
+
+Пользователь в интерфейсе (UI) создаёт connection, например, к БД MySQL → информацию получает Server API, а данные подключения сохраняются в Airbyte DB.
+
+Server API обрабатывает информацию → далее действие переходит к Scheduler → далее к Worker и после исполнения запроса снова мяч на стороне Sheduler (он будет проверять, не настало ли время следующего действия)
 
 ## 🗂️ 3: Getting Started with Airbyte
 
