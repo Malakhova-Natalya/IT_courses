@@ -57,6 +57,16 @@ Airbyte используется для задач загрузки данных
 
 вот пример более цельной картины использования из статьи
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/04%20-%20Airbyte%20in%20ELT%20ETL%20processes.png)
+
+- **7. The Core Concepts**
+
+
+
+
+
+
+
+
 ## 🗂️ 3: Getting Started with Airbyte
 
 ## 🗂️ 4: Advanced Concepts
