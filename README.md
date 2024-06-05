@@ -2,7 +2,7 @@
 
 ## 🗃️ Docker с нуля
 
-Курс на платформе Karpov.Courses: [здесь]([https://stepik.org/course/99527/syllabus](https://karpov.courses/docker?_gl=1*ueot3m*_ga*ODc5ODgxODYzLjE3MDU1Njc1MzE.*_ga_DZP7KEXCQQ*MTcwNzcyMTkwNC40NC4xLjE3MDc3MjE5MTcuNDcuMC4w)
+Курс на платформе Karpov.Courses: [здесь](https://karpov.courses/docker?_gl=1*ueot3m*_ga*ODc5ODgxODYzLjE3MDU1Njc1MzE.*_ga_DZP7KEXCQQ*MTcwNzcyMTkwNC40NC4xLjE3MDc3MjE5MTcuNDcuMC4w)
 
 Мой отзыв/разбор: [здесь]()
 
