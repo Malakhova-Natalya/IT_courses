@@ -17,9 +17,11 @@
 
 - **15. Create your first source (Google Sheets)**
 
-В этом [видео](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/learn/lecture/40239172#content) (прим.:доступно с vpn + с доступом к курсу) подробно разобрано, как создать проект в Google Sheets и получить json-key.
+В этом [видео](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/learn/lecture/40239172#content)* подробно разобрано, как создать проект в Google Sheets и получить json-key.
  
 - **16. Create your first destination (BigQuery)**
+
+ В этом [видео](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/learn/lecture/40239174#content)* рассказано о Billing Account, без которого не получится подключиться к Big Query
 
 - **17. Configure your first connection**
 
@@ -28,3 +30,5 @@
 - **19. Raw tables and additional columns?**
 
 - **20. Connector classifications (Certified, Community, etc)**
+
+прим.: видео доступно с vpn + с доступом к курсу
