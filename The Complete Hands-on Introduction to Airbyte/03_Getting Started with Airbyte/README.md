@@ -11,7 +11,7 @@
 - **14. The Bank Pipeline**
 
 - **15. Create your first source (Google Sheets)**
-- 
+ 
 - **16. Create your first destination (BigQuery)**
 
 - **17. Configure your first connection**
