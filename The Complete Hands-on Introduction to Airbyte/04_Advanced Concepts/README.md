@@ -66,6 +66,15 @@ Airbyte сам проверяет изменения в источнике:
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/55%20-%20breaking%20changes.png)
 
 ### 25. What is Change Data Capture (CDC)?
+
+Это способность отслеживать изменения в базе даанных
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/56%20-%20change%20data%20capture.png)
+
+Это реализовано с помощью системы логов:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/57%20-%20transaction%20logs.png)
+
 ### 26. Enable CDC with Postgres
 ### 27. Syncing data between Postgres and BigQuery using CDC
 ### 28. The Sync Modes cheat sheet
