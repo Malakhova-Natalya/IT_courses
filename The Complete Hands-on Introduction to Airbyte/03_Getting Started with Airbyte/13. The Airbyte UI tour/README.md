@@ -68,6 +68,8 @@
 
 Здесь представлены имеющиеся источники. А если их ещё нет - то все возможные виды источников.
 
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/33%20-%20Sources.png)  
+
 В возможных видах источников можно увидеть, что коннекторы бывают двух видов: 
   - community - созданные сообществом
     
@@ -75,13 +77,11 @@
   
   - certified - сертифицированные
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/33%20-%20Sources.png)    
-
 Рассмотрим пример: вы хотите подключить Google Sheets. Вы можете ввести в поиск название, и увидите, что есть предлагаемый коннектор и есть возможность создать свой коннектор.
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/35%20-%20two%20ways%20of%20creating%20new%20connector.png)
 
 Чтобы создать новый коннектор, есть 2 способа:
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/35%20-%20two%20ways%20of%20creating%20new%20connector.png)
 - справа - low-code connector-builder
 - внизу - request a new connector
 
