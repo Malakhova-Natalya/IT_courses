@@ -67,7 +67,7 @@ Airbyte сам проверяет изменения в источнике:
 
 ### 25. What is Change Data Capture (CDC)?
 
-Это способность отслеживать изменения в базе даанных
+Это способность отслеживать изменения в базе данных
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/56%20-%20change%20data%20capture.png)
 
