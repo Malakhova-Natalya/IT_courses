@@ -39,13 +39,31 @@
 
 ### 24. Handling schema changes
 
-Новая колонка, изменение типа данных, переименование колонки или удаление её - всё это schema changes.
+Новая колонка, изменение типа данных, переименование колонки или удаление её - всё это schema changes. Поведение Airbyte можно настроить при помощи параметра Detect and propagate schema changes.
 
 Изменения могут нарушить работу пайплайна или не повлиять на него.
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/52%20-%20schema%20changes.png)
 
-По умолчанию Airbyte уведомит об изменениях, но не изменит настройки пайплайна (нужно будет вручную подтвердить внесение изменений).
+По умолчанию Detect changes and manually approve - это значит Airbyte уведомит об изменениях, но не изменит настройки пайплайна (нужно будет вручную подтвердить внесение изменений).
+
+Когда появились изменения висточнике → соединение отработает, но в раделе Replications будет уведомление Non-breaking schema updates detected → можно перейти в Review changes → Airbyte укажет, где именно и какие изменения → вы можете нажать Ок и сохранить эти изменения (Save changes).
+
+Есть и другие варианты поведения:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/53%20-%20schema%20changes%20options.png)
+
+Автор рекомендует не использовать первые два варианта, а предпочитать третий (или четвертый).
+
+Airbyte сам проверяет изменения в источнике:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/54%20-%20Airbyte%20checks%20schema%20changes.png)
+
+Но если у вас есть сомнения и вы хотие дополнительно проверить, можете использовать кнопочку "Refresh source schema".
+
+Что касается изменений, которые нарушат работу пайплайна, то это удаление primary key или cursor:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/55%20-%20breaking%20changes.png)
 
 ### 25. What is Change Data Capture (CDC)?
 ### 26. Enable CDC with Postgres
