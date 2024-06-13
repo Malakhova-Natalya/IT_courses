@@ -9,6 +9,8 @@
   
 ### Раздел Connections
 
+Здесь - всё о соединениях.
+
 Стартовая страница выглядит, например, вот так:
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/26%20-%20UI%20start%20page.png)
@@ -56,12 +58,14 @@
 
 ### Раздел Sources
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/33%20-%20Sources.png)
+Здесь представлены имеющиеся источники
 
-здесь представлены имеющиеся источники
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/33%20-%20Sources.png)
 
 ### Раздел Destinations
 
+Здесь -  имеющиеся места назначения
+
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/34%20-%20Destinations.png)
 
-здесь -  имеющиеся места назначения
+
