@@ -38,8 +38,8 @@ Sync mode - две опции:
 
 ### 18. Make your first sync!
 
-- **19. Raw tables and additional columns?**
+### 19. Raw tables and additional columns?
 
-- **20. Connector classifications (Certified, Community, etc)**
+### 20. Connector classifications (Certified, Community, etc)
 
 Примечание: видео доступны с vpn + с доступом к курсу
