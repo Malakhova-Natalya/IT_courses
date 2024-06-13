@@ -101,5 +101,5 @@
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/37%20-%20Update.png)
 
 
-- Resources
-- Settings
+### Раздел Resources
+### Раздел Settings
