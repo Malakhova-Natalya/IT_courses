@@ -31,4 +31,4 @@
 
 - **20. Connector classifications (Certified, Community, etc)**
 
- * видео доступно с vpn + с доступом к курсу
+  * видео доступно с vpn + с доступом к курсу
