@@ -41,6 +41,7 @@
   - Settings
 
   В разделе Status - информация по всем стримам.
+  
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/27%20-%20details.png)
 
   В разделе Job History - информация по прошлым отработкам соединения
