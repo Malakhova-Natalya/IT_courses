@@ -96,4 +96,65 @@ Airbyte сам проверяет изменения в источнике:
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/58%20-%20CDC%20limitations.png)
 
 ### 28. The Sync Modes cheat sheet
+
+The Sync Modes cheat sheet
+The replication mode that you choose to use will depend on your requirements. Below is a table that compares the various modes without CDC (left) and with CDC (right):
+
+                                             
+Standard (Non-CDC)	CDC
+Full refresh | Overwrite	✅ Deletes are handled
+✅ Good for small data volume
+✅ Final data does not have duplicates
+ 	✅ Same as Standard (Non-CDC)
+   
+⚠️ No history is stored
+⚠️ Inefficient for large data
+⚠️ Inefficient for high frequency syncs
+ 	⚠️ Same as Standard (Non-CDC)  
+Full refresh | Append	✅ Stores history
+✅ Good for small data volume
+ 	✅ Same as Standard (Non-CDC)
+   
+⚠️ Storage may explode
+⚠️ Inefficient for large data
+⚠️ Inefficient for high frequency syncs
+⚠️ Final data will contain duplicates
+ 	⚠️ Same as Standard (Non-CDC)  
+Incremental | Append	✅ Efficient for high frequency syncs
+✅ Stores history
+✅ Primary key not required
+ 	✅ Efficient for high frequency syncs
+✅ Stores history
+✅ Deletes are transmitted and logged
+✅ Intermediate states captured
+✅ No cursor field is required
+ 
+⚠️ A suitable cursor must be available
+⚠️ Final data may contain duplicates
+⚠️ Deletes are not detected
+⚠️ Intermediate states not captured
+ 	⚠️ Primary key required
+⚠️ Final data may contain duplicates
+⚠️ Not available for all sources
+⚠️ Requires access to the transaction log
+ 
+Incremental | Append + deduped	✅ Efficient for high frequency syncs
+✅ Stores history
+✅ De-duplicates final data
+ 	✅ Efficient for high frequency syncs
+✅ Stores history
+✅ Deletes are handled
+✅ Intermediate states captured
+✅ De-duplicates final data
+✅ No cursor field is required
+ 
+⚠️ Primary key required
+⚠️ A suitable cursor must be available
+⚠️ Deletes are not detected
+⚠️ Intermediate states not captured
+ 	⚠️ Primary key required
+⚠️ Not available for all sources
+⚠️ Requires access to the transaction log
+ 
+
 ### 29. CDC under the hood
