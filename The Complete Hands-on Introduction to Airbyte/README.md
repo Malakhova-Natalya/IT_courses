@@ -3,7 +3,8 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 
 Авторы: [Marc Lamberti](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/?couponCode=ST19MT60324#instructor-1)
 
-
+## 🗂️ 1: Welcome!
+- [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/01_Welcome/README.md)
 
 ## 🗂️ 2: Airbyte Fundamentals
 ✒️ разделы:
