@@ -25,6 +25,8 @@
 
 - **17. Configure your first connection**
 
+К этому моменту уже созданы source и destination → создаём connection и прописываем его настройки.
+
 - **18. Make your first sync!**
 
 - **19. Raw tables and additional columns?**
