@@ -51,7 +51,7 @@
 
   В разделе Transformation - информация о том, как трансформируются данные
 
-  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/30%20-%20Transformation.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/30%20-%20Transformation.png)
 
   В разделе Settings - здесь можно поменять название соединения или удалить его
 
