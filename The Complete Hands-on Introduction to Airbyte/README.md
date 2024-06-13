@@ -164,7 +164,7 @@ Airbyte обрабатывает данные порциями, поэтому �
 
 - **12. Running Airbyte with Docker**
 
-Когда вы скачаете папку со всем необходимым для установки Airbyte в Docker, вы обнаружите там следующие файлы:
+Когда вы скачаете [папку](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/airbyte.zip) со всем необходимым для установки Airbyte в Docker, вы обнаружите там следующие файлы:
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/20%20-%20Docker%20download%20files.png)
 
@@ -200,6 +200,9 @@ Airbyte обрабатывает данные порциями, поэтому �
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/25%20-%20specify%20your%20preferences.png)
 
 и после этого вы попадёте в пользовательский интерфейс Airbyte.
+
+- **13. The Airbyte UI tour**
+
 
 
 ## 🗂️ 4: Advanced Concepts
