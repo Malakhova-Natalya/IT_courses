@@ -38,6 +38,13 @@
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/51%20-%20incremental%20dedupted.png)
 
 ### 24. Handling schema changes
+
+Новая колонка, изменение типа данных, переименование колонки или удаление её - всё это schema changes.
+
+Изменения могут нарушить работу пайплайна или не повлиять на него.
+
+По умолчанию Airbyte уведомит об изменениях, но не изменит настройки пайплайна (нужно будет вручную подтвердить внесение изменений).
+
 ### 25. What is Change Data Capture (CDC)?
 ### 26. Enable CDC with Postgres
 ### 27. Syncing data between Postgres and BigQuery using CDC
