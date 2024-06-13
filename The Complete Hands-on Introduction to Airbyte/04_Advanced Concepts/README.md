@@ -25,6 +25,10 @@
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/48%20-%20two%20part%20of%20name.png)
 
+Существуют разные варианты sync mode:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/49%20-%20sync%20mode.png)
+
 ### 24. Handling schema changes
 ### 25. What is Change Data Capture (CDC)?
 ### 26. Enable CDC with Postgres
