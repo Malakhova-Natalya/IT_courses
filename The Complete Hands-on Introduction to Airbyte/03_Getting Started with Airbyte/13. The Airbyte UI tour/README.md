@@ -119,11 +119,11 @@
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/39%20-%20Settings.png)
 
-В разделе настроек есть несколько разделов:
+В разделе настроек есть несколько разделов, они делятся на USER SETTINGS и WORKSPACE SETTINGS:
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/40%20-%20Settings%20inside.png)
 
-Раздел Sources отображает доступные коннекторы:
+WORKSPACE SETTINGS. Раздел Sources отображает доступные коннекторы:
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/41%20-%20Settings%20-%20Sources.png)
 
