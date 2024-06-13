@@ -6,6 +6,11 @@
 - Destinations
 
 Они отображены в левой части интерфейса.
+
+Снизу слева есть ещё разделы:
+- Update
+- Resources
+- Settings
   
 ### Раздел Connections
 
@@ -94,3 +99,7 @@
 ### Раздел Update
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/37%20-%20Update.png)
+
+
+- Resources
+- Settings
