@@ -29,6 +29,11 @@
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/49%20-%20sync%20mode.png)
 
+Для инкрементального чтения понадобится указать дополнительные опции:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/50%20-%20incremental%20reading%20mode.png)
+
+
 ### 24. Handling schema changes
 ### 25. What is Change Data Capture (CDC)?
 ### 26. Enable CDC with Postgres
