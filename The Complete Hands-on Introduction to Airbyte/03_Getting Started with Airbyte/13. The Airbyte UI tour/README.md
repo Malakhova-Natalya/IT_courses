@@ -25,4 +25,18 @@
   В разделе Status - информация по всем стримам.
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/27%20-%20details.png)
 
+  В разделе Job History - информация по прошлым отработкам соединения
 
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/28%20-%20Job%20History.png)
+
+  В разделе Replication - информация о том, как скопированы данные
+  
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/29%20-%20Replication.png)
+
+  В разделе Transformation - информация о том, как трансформируются данные
+
+  ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/30%20-%20Transformation.png)
+
+  В разделе Settings - здесь можно поменять название соединения или удалить его
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/31%20-%20Settings.png)
