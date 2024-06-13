@@ -11,6 +11,10 @@
 
 - **14. The Bank Pipeline**
 
+Далее будет разобран пример для данных банка. Например, у вас есть две страницы документа в Google Sheets с разными данными и вы хотите их загрузить в базу данных в соответствующие таблицы:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/44%20-%20from%20Google%20Sheets%20to%20DW.png)
+
 - **15. Create your first source (Google Sheets)**
  
 - **16. Create your first destination (BigQuery)**
