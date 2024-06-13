@@ -10,3 +10,14 @@
 
 - **14. The Bank Pipeline**
 
+- **15. Create your first source (Google Sheets)**
+- 
+- **16. Create your first destination (BigQuery)**
+
+- **17. Configure your first connection**
+
+- **18. Make your first sync!**
+
+- **19. Raw tables and additional columns?**
+
+- **20. Connector classifications (Certified, Community, etc)**
