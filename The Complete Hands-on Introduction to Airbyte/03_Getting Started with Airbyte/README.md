@@ -32,8 +32,8 @@ Detect and propagate schema changes - эта настройка позволит
 Streams - можно не только включать одни и выключать другие, можно ещё нажать на какой-либо stream и увидеть, какие у него внутри колонки, и также что-то отключить с помощью бегунка слева.
 
 Sync mode - две опции: 
-  - Full refresh | Overwrite
-  - Full refresh | Append
+    - Full refresh | Overwrite
+    - Full refresh | Append
 
 - **18. Make your first sync!**
 
