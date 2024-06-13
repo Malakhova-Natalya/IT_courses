@@ -55,11 +55,12 @@ Sync mode - две опции:
  - _airbyte_loaded_at: когда данные перейдут из сырой таблицы (raw__stream_clients) → в итоговую (clients)
  - _airbyte_meta: данные об ошибках (внизу под статусом succeded, где есть сведения об объёме данных и времени отработки - есть ещё Job id - оттуда эта информация)
  - _airbyte_data: сами данные в формает JSON
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/45%20-%20raw%20tables.png)   
 4. создаётся таблица с названием, как в источнике данных - в нашем примере это clients
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/45%20-%20raw%20tables.png)   
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/45%20-%20raw%20tables.png)
+
+
 
 ### 20. Connector classifications (Certified, Community, etc)
 
