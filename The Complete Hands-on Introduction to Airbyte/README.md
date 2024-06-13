@@ -24,5 +24,6 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 - 27. Syncing data between Postgres and BigQuery using CDC
 - 28. The Sync Modes cheat sheet
 - 29. CDC under the hood
+      
 ## 🗂️ 5: The Fraud Project
 
