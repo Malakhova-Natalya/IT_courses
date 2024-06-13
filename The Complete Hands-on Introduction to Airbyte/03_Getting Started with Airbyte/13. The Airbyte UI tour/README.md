@@ -87,4 +87,10 @@
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/34%20-%20Destinations.png)
 
+Здесь всё организовано так же, как и в разделе с источниками. Кроме меток community и certified здесь можно увидеть custom (назначения, созданные пользователем для себя).
 
+Здесь также при выборе возможного места назначения появятся поля для заполнения слева и документация справа.
+
+### Раздел Update
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/37%20-%20Update.png)
