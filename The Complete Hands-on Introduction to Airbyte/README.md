@@ -14,6 +14,7 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 
 ## 🗂️ 4: Advanced Concepts
 ✒️ разделы №№ 21-29: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/04_Advanced%20Concepts/README.md)
+
 - 21. How does a sync work?
 - 22. Side notes for Postgres
 - 23. Discover the sync modes
