@@ -49,5 +49,5 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 29. CDC under the hood
       
 ## 🗂️ 5: The Fraud Project
-✒️ конспекты: 
+✒️ конспекты: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/05_The%20Fraud%20Project)
 
