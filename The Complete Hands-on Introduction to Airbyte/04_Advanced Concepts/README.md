@@ -97,9 +97,6 @@ Airbyte сам проверяет изменения в источнике:
 
 ### 28. The Sync Modes cheat sheet
 
-The Sync Modes cheat sheet
-The replication mode that you choose to use will depend on your requirements. Below is a table that compares the various modes without CDC (left) and with CDC (right):
-
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/59%20-%20The%20Sync%20Modes%20cheat%20sheet%2001.png)
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/60%20-%20The%20Sync%20Modes%20cheat%20sheet%2002.png)                            ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/61%20-%20The%20Sync%20Modes%20cheat%20sheet%2003.png)                 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/62%20-%20The%20Sync%20Modes%20cheat%20sheet%2004.png)
