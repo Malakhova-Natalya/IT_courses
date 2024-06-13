@@ -1,5 +1,14 @@
 ## 13. The Airbyte UI tour
 
+Пользовательский интерфейс имеет несколько больших разделов:
+- Connections
+- Sources
+- Destinations
+
+Они отображены в левой части интерфейса.
+  
+**Раздел Connections**
+
 Стартовая страница выглядит, например, вот так:
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/26%20-%20UI%20start%20page.png)
@@ -45,3 +54,8 @@
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/32%20-%20New%20connection.png)
 
+**Раздел Sources**
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/33%20-%20Sources.png)
+
+**Раздел Destinations**
