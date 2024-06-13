@@ -85,7 +85,7 @@ Airbyte сам проверяет изменения в источнике:
 
 Вместо cursor Airbyte читает логи базы данных (операции insert, update, delete) и на основе логов автоматически понимает, какие записи новые, а какие старые.
 
-Подробнее в этом [видео}(https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/learn/lecture/42441908#content)
+Подробнее в этом [видео](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/learn/lecture/42441908#content)
 
 Также есть интересное отличие в поведении incremental с CDC и без него.
 Без CDC система прочитает новые данные только там, где поле с cursor (например, updated_at) покажет дату бОльшую, чем в cursor.
