@@ -44,7 +44,22 @@ Sync mode - две опции:
 
 ### 19. Raw tables and additional columns?
 
+При скачивании данных Airbyte создаёт дополнительные колонки. Как это происходит?
 
+Например, в вашем источнике данных (source) находится таблица clients. И вы при помощи Airbyte переносите её содержимое в некоторое место назначения (destination). Что делает Airbyte?
+1. в destination создаётся схема airbyte_internal
+2. в ней создаётся таблица с названием raw__stream_<название вашей таблицы>, в нашем случае это raw__stream_clients.
+3. в этой таблице создаются колонки:
+ - _airbyte_raw_id: здесь уникальное id для каждой строки
+ - _airbyte_extracted_at: когда данные извлечены из источника
+ - _airbyte_loaded_at: когда данные перейдут из сырой таблицы (raw__stream_clients) → в итоговую (clients)
+ - _airbyte_meta: данные об ошибках (внизу под статусом succeded, где есть сведения об объёме данных и времени отработки - есть ещё Job id - оттуда эта информация)
+ - _airbyte_data: сами данные в формает JSON
+4. создаётся таблица с названием, как в источнике данных - в нашем примере это clients
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/45%20-%20raw%20tables.png)   
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/45%20-%20raw%20tables.png)
 
 ### 20. Connector classifications (Certified, Community, etc)
 
