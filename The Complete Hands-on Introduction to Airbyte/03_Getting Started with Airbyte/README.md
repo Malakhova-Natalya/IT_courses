@@ -58,10 +58,13 @@ Sync mode - две опции:
    
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/45%20-%20raw%20tables.png)   
 
-4. создаётся таблица с названием, как в источнике данных - в нашем примере это clients
-
-
-
+4. создаётся таблица с названием, как в источнике данных - в нашем примере это clients - и туда переносятся данные из сырой таблицы raw__stream_clients:
+ - _airbyte_raw_id
+ - _airbyte_extracted_at
+ - _airbyte_loaded_at: это поле заполняется на этом шаге
+ - _airbyte_meta
+ - данные из _airbyte_data разбиваются на колонки, как в оригинальной таблице
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/46%20-%20raw%20tables%20progress.png)
 
 
 ### 20. Connector classifications (Certified, Community, etc)
