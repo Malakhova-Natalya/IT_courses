@@ -102,3 +102,5 @@ Airbyte сам проверяет изменения в источнике:
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/62%20-%20The%20Sync%20Modes%20cheat%20sheet%2004.png)
 
 ### 29. CDC under the hood
+
+If you are looking for a deep dive into CDC with Airbyte, go check out the following link https://airbyte.com/tutorials/incremental-change-data-capture-cdc-replication
