@@ -98,8 +98,35 @@
 
 ### Раздел Update
 
+Если кликнуть сюда, то вы попадёте на сайт Airbyte, где сможете посмотреть на новые версии и обновиться. 
+
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/37%20-%20Update.png)
 
 
 ### Раздел Resources
+
+Если кликнуть сюда, то вы сможете перейти в разделы документация, чат сообщества, туториалы
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/38%20-%20Resources.png)
+
 ### Раздел Settings
+
+Если кликнуть сюда, то вы попадёте в раздел настроек, который лимитирован для open source версии Airbyte
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/39%20-%20Settings.png)
+
+В разделе настроек есть несколько разделов:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/40%20-%20Settings%20inside.png)
+
+Раздел Sources отображает доступные коннекторы:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/41%20-%20Settings%20-%20Sources.png)
+
+Здесь можно увидеть Docker image, текущую версию, последнюю доступную версию, а также здесь можно обновить коннектор. Красная точка слева отображает, что коннектору есть куда обновиться.
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/42%20-%20Available%20source%20connectors.png)
+
+Раздел Notifications позволяет настроить уведомления, которые вы будете получать от программы:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/43%20-%20Notifications.png)
