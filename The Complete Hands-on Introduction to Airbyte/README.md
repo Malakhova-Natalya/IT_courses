@@ -3,14 +3,16 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 
 Авторы: [Marc Lamberti](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/?couponCode=ST19MT60324#instructor-1)
 
-## 🗂️ 1: Welcome - [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/01_Welcome/README.md)
+## 🗂️ 1: Welcome 
+✒️ конспекты: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/01_Welcome/README.md)
 
 1. Welcome!
 2. Prerequisites
 3. Who am I?
 4. Learning Advice
 
-## 🗂️ 2: Airbyte Fundamentals - [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/02_Airbyte%20Fundamentals/README.md)
+## 🗂️ 2: Airbyte Fundamentals 
+✒️ конспекты: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/02_Airbyte%20Fundamentals/README.md)
 
 5. Why Airbyte?
 6. What is Airbyte?
@@ -19,7 +21,8 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 9. Why not Airbyte?
 10. Airbyte Cloud or OSS?
      
-## 🗂️ 3: Getting Started with Airbyte - [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/03_Getting%20Started%20with%20Airbyte/README.md)
+## 🗂️ 3: Getting Started with Airbyte 
+✒️ конспекты: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/03_Getting%20Started%20with%20Airbyte/README.md)
 
 11. Introduction to Docker (Optional): [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/03_Getting%20Started%20with%20Airbyte/11.%20Introduction%20to%20Docker%20(Optional)/README.md)
 12. Running Airbyte with Docker: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/03_Getting%20Started%20with%20Airbyte/12.%20Running%20Airbyte%20with%20Docker/README.md)
@@ -32,7 +35,8 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 19. Raw tables and additional columns?
 20. Connector classifications (Certified, Community, etc)
 
-## 🗂️ 4: Advanced Concepts - [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/04_Advanced%20Concepts/README.md)
+## 🗂️ 4: Advanced Concepts 
+✒️ конспекты: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/04_Advanced%20Concepts/README.md)
 
 21. How does a sync work?
 22. Side notes for Postgres
@@ -45,4 +49,5 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 29. CDC under the hood
       
 ## 🗂️ 5: The Fraud Project
+✒️ конспекты: 
 
