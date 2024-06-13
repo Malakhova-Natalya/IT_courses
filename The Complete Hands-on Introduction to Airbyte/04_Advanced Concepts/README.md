@@ -76,6 +76,11 @@ Airbyte сам проверяет изменения в источнике:
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/57%20-%20transaction%20logs.png)
 
 ### 26. Enable CDC with Postgres
+
+Начать созавать новый источник POstgres → сбоку в документации будет Advanced Configuration - Setup using CDC
+
+Подробнее можно посмотреть в этом [видео](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/learn/lecture/40236680#content)
+
 ### 27. Syncing data between Postgres and BigQuery using CDC
 ### 28. The Sync Modes cheat sheet
 ### 29. CDC under the hood
