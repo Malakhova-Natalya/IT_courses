@@ -33,6 +33,9 @@
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/50%20-%20incremental%20reading%20mode.png)
 
+Интересный метод - инкрементальный, но без дублей:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/51%20-%20incremental%20dedupted.png)
 
 ### 24. Handling schema changes
 ### 25. What is Change Data Capture (CDC)?
