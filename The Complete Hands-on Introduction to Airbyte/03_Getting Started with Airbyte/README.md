@@ -8,3 +8,5 @@
 
 - **13. The Airbyte UI tour**: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/03_Getting%20Started%20with%20Airbyte/13.%20The%20Airbyte%20UI%20tour/README.md)
 
+- **14. The Bank Pipeline**
+
