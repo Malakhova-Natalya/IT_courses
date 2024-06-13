@@ -164,7 +164,18 @@ Airbyte обрабатывает данные порциями, поэтому �
 
 - **12. Running Airbyte with Docker**
 
-- 
+- temporal - Airbyte Scheduler
+- server - config API
+- cron - for differnet cron jobs
+- webapp - Airbyte user interface
+- proxy - for authentification part
+- api-server - the public API of Airbyte
+- worker - runs jobs from Airbyte scheduler
+- connector-builder-server - this is useful to test your own connector that you build with the connector builder
+- db - Airbyte database powered by Postgres
+
+
+
 ## 🗂️ 4: Advanced Concepts
 ![cover]()
 ## 🗂️ 5: The Fraud Project
