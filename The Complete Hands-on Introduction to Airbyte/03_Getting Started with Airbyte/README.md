@@ -63,5 +63,19 @@
 
 - **13. The Airbyte UI tour**
 
+Стартовая страница выглядит, например, вот так:
+
+!{cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/26%20-%20UI%20start%20page.png)
+
+здесь мы видим слева направо:
+- SOURCE NAME
+- DESTINATION NAME
+- FREQUENCY
+- LAST SYNC
+- ENABLED
+- кнопка (шестеренка)
+- 
+Автор рекомендует давать отдельные названия для соединений, иначе, если у ва будут соединения с одинаковыми именами - вы легко в них запутаетесь.
+Названия состоят из: название коннектора - название места назначения. Иногда это одно и тоже.
 
 
