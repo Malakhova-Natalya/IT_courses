@@ -15,11 +15,14 @@
 Названия состоят из: название коннектора - название места назначения. Иногда это одно и тоже.
 
 - кнопка (шестеренка) появляется при наведении на строку конкретного соединения. Там можно посмотреть детали. Если мы нажмём на неё, то увидим дополнительные разделы:
-  
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/27%20-%20details.png)
 
 - Status
 - Job History
 - Replication
 - Transformation
 - Settings
+
+  В разделе Status - информация по всем стримам.
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/27%20-%20details.png)
+
+
