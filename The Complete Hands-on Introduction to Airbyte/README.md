@@ -6,9 +6,18 @@ Get started with Airbyte and learn how to use it with Apache Airflow, Snowflake,
 ## 🗂️ 1: Welcome!
 ✒️ разделы №№ 1-4: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/01_Welcome/README.md)
 
+
+
 ## 🗂️ 2: Airbyte Fundamentals
 ✒️ разделы №№ 5-10: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/02_Airbyte%20Fundamentals/README.md)
-  
+
+5. Why Airbyte?
+6. What is Airbyte?
+7. The Core Concepts
+8. The Core Components
+9. Why not Airbyte?
+10. Airbyte Cloud or OSS?
+     
 ## 🗂️ 3: Getting Started with Airbyte
 ✒️ разделы №№ 11-20: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/03_Getting%20Started%20with%20Airbyte/README.md)
 
