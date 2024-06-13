@@ -33,8 +33,8 @@ Streams - можно не только включать одни и выключ
 
 Sync mode - две опции:
 
-    - Full refresh | Overwrite
-    - Full refresh | Append
+- Full refresh | Overwrite
+- Full refresh | Append
 
 ### 18. Make your first sync!
 
