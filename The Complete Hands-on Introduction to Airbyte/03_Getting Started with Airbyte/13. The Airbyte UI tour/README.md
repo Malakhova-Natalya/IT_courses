@@ -7,7 +7,7 @@
 
 Они отображены в левой части интерфейса.
   
-**Раздел Connections**
+### Раздел Connections
 
 Стартовая страница выглядит, например, вот так:
 
@@ -54,8 +54,14 @@
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/32%20-%20New%20connection.png)
 
-**Раздел Sources**
+### Раздел Sources
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/33%20-%20Sources.png)
 
-**Раздел Destinations**
+здесь представлены имеющиеся источники
+
+### Раздел Destinations
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/34%20-%20Destinations.png)
+
+здесь -  имеющиеся места назначения
