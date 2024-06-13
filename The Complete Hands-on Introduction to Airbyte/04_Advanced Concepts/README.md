@@ -15,7 +15,16 @@
    
 ### 22. Side notes for Postgres
 
+Если вы работаете с базой данных Postgres, надо создать read-only Postgres user. Пока мы используем Airbyte Postgres database, этот пользователь автоматически уже существует.
+
 ### 23. Discover the sync modes
+
+Существует 2 части имени sync mode, они разделены прямой чертой |
+- левая часть указывает, как мы читаем данные из источника
+- правая - как записываем в место назначения
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/48%20-%20two%20part%20of%20name.png)
+
 ### 24. Handling schema changes
 ### 25. What is Change Data Capture (CDC)?
 ### 26. Enable CDC with Postgres
