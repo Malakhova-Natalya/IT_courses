@@ -82,5 +82,18 @@ Airbyte сам проверяет изменения в источнике:
 Подробнее можно посмотреть в этом [видео](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/learn/lecture/40236680#content)
 
 ### 27. Syncing data between Postgres and BigQuery using CDC
+
+Вместо cursor Airbyte читает логи базы данных (операции insert, update, delete) и на основе логов автоматически понимает, какие записи новые, а какие старые.
+
+Подробнее в этом [видео}(https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/learn/lecture/42441908#content)
+
+Также есть интересное отличие в поведении incremental с CDC и без него.
+Без CDC система прочитает новые данные только там, где поле с cursor (например, updated_at) покажет дату бОльшую, чем в cursor.
+А с CDC система прочитает люое изменение, с любой датой (это кассается и удаления записей). Поскольку с CDC система читает логи, то при удалении одной строки будет записано, что скачана одна строка (но это по сути выражение на её удаление).
+
+Есть определенные ограничения для использования CDC:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/58%20-%20CDC%20limitations.png)
+
 ### 28. The Sync Modes cheat sheet
 ### 29. CDC under the hood
