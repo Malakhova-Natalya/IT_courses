@@ -40,3 +40,8 @@
   В разделе Settings - здесь можно поменять название соединения или удалить его
 
 ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/31%20-%20Settings.png)
+
+Новое соединение можно создать, нажав на кнопку "+ New connection" справа в верхнем углу:
+
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/32%20-%20New%20connection.png)
+
