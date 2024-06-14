@@ -41,3 +41,5 @@
 Курс на платформе Udemy: [здесь](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/) (нужен VPN)
 
 **Мой конспект:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte)
+
+Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/final_opinion.md)
