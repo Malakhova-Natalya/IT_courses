@@ -1,4 +1,4 @@
-# Разбор курса «dYandexGPT для начинающих»
+# Разбор курса «YandexGPT для начинающих»
 
 
 **Ссылка:**  https://practicum.yandex.ru/yandexgpt-beginner/?utm_source=referral&utm_medium=community&utm_campaign=tg_community_RF_common_Unde_b2c_Other_None_june-2024
