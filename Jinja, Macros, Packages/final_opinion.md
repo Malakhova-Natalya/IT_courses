@@ -1,4 +1,4 @@
-## Разбор курса «dbr Learn – Jinja, Macros, Packages»
+## Разбор курса «dbt Learn – Jinja, Macros, Packages»
 
 
 
