@@ -43,3 +43,9 @@
 **Мой конспект:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte)
 
 Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/final_opinion.md)
+
+## 🗃️ YandexGPT для начинающих
+
+Курс на платформе Яндекс Практикум: [здесь](https://practicum.yandex.ru/yandexgpt-beginner/?utm_source=referral&utm_medium=community&utm_campaign=tg_community_RF_common_Unde_b2c_Other_None_june-2024)
+
+Мой отзыв/разбор: [здесь](
