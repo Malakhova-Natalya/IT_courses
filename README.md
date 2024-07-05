@@ -6,40 +6,13 @@
 | Jinja, Macros, Packages |  | [здесь](https://courses.getdbt.com/courses/take/jinja-macros-packages/texts/30200737-welcome) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Jinja%2C%20Macros%2C%20Packages/final_opinion.md) |  |
 | Apache Airflow для аналитика | Stepik | [здесь](https://stepik.org/course/99527/syllabus) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Apache%20Airflow%20для%20аналитика/final_opinion.md) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/Apache%20Airflow%20для%20аналитика) |
 | ClickHouse для аналитика | Stepik | [здесь](https://stepik.org/course/100210/syllabus) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/ClickHouse%20для%20аналитика/final_opinion.md) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/ClickHouse%20для%20аналитика) |
+| Оконные функции SQL | Stepik | [здесь](https://stepik.org/course/95367/syllabus) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Оконные%20функции%20SQL/final_opinion.md) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/Оконные%20функции%20SQL) |
+| The Complete Hands-on Introduction to Airbyte | Udemy | [здесь](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/) (нужен VPN) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/final_opinion.md) | [конспект](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte) |
+| YandexGPT для начинающих | Яндекс Практикум | [здесь](https://practicum.yandex.ru/yandexgpt-beginner/?utm_source=referral&utm_medium=community&utm_campaign=tg_community_RF_common_Unde_b2c_Other_None_june-2024) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/YandexGPT%20для%20начинающих) |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
 
 
 
-## 🗃️ ClickHouse для аналитика
 
-Курс на платформе Stepik: [здесь](https://stepik.org/course/100210/syllabus)
 
-**Мои решения:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/ClickHouse%20для%20аналитика)
-
-Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/ClickHouse%20для%20аналитика/final_opinion.md)
-
-## 🗃️ Оконные функции SQL
-
-Курс на платформе Stepik: [здесь](https://stepik.org/course/95367/syllabus)
-
-**Мои решения:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/Оконные%20функции%20SQL)
-
-Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Оконные%20функции%20SQL/final_opinion.md)
-
-## 🗃️ The Complete Hands-on Introduction to Airbyte
-
-Курс на платформе Udemy: [здесь](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/) (нужен VPN)
-
-**Мой конспект:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte)
-
-Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/final_opinion.md)
-
-## 🗃️ YandexGPT для начинающих
-
-Курс на платформе Яндекс Практикум: [здесь](https://practicum.yandex.ru/yandexgpt-beginner/?utm_source=referral&utm_medium=community&utm_campaign=tg_community_RF_common_Unde_b2c_Other_None_june-2024)
-
-Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/YandexGPT%20для%20начинающих)
