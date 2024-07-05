@@ -1,0 +1,23 @@
+Описание задачи:
+
+Посчитать ARPMAU за март по таблицам login и finance 
+
+Формат ответа:
+
+Ответ 4 знака после запятой.
+
+---------------------------------------------------------------------------
+Моё решение:
+
+WITH mau_table AS (
+SELECT toStartOfMonth(event_time) AS event_date , uniq(uid) AS MAU
+FROM login
+WHERE event_date = toDate('2023-03-01')
+GROUP BY 1)
+, revenue_table AS (
+SELECT SUM(revenue_usd) AS revenue
+FROM finance
+WHERE toStartOfMonth(event_time) = toDate('2023-03-01'))
+
+SELECT trunc(revenue /(SELECT MAU FROM mau_table), 4) AS ARPMAU
+FROM revenue_table

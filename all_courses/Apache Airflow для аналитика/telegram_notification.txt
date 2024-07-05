@@ -1,0 +1,55 @@
+# Настройка уведомлений Airflow в Telegram 
+
+# Telegram:
+# 1) Создаём канал в Telegram -> New Channel
+# 2) Создаём бота в Telegram через @botfather
+# 3) Узнаём API Token для этого бота (тоже через @botfather)
+# 4) Добавляем бота в канал с правами админа
+# 5) Узнаём id канала (через добавление бота @raw_data_bot в канал с правами 
+# админа и вызов команды /my_id) - важно! - цифры вместе с минусом перед ним
+
+# Airflow:
+# 6) с помощью этих данных в Airflow -> Admin -> Connections создаём connection
+
+# например
+# Conn Id: telegram_123456789 (вместо этих цифр ваш id пользователя на Stepic)
+# Conn Type: HTTP или File(path)
+# Host: вставляем сюда id канала вместе с минусом
+# Password: вставляем сюда API Token
+
+# 7) пишем код DAG'а
+
+# необходимые импорты
+from airflow import DAG
+from datetime import datetime
+from airflow.operators.python_operator import PythonOperator
+from airflow.exceptions import AirflowException
+from airflow.providers.telegram.operators.telegram import TelegramOperator
+
+# настраиваем при помощи функции, какое и куда будем отправлять сообщение
+def on_failure_callback(context):
+    send_message = TelegramOperator(
+        task_id='send_message_telegram',
+        telegram_conn_id='telegram_123456789',
+        chat_id='-1111111111111',
+        text='Hello from Airflow!',
+        dag=dag)
+    return send_message.execute(context=context)
+
+# настраиваем вызов исключения - нужно как условие для работы данного дага
+def task_exception_function():
+    raise AirflowException
+
+# пишем сам даг, в котором при падении будет вызвана функция, которая отправляет сообщения
+dag = DAG(
+    'dag_123456789',
+    start_date=datetime(2015, 12, 1),
+    on_failure_callback=on_failure_callback,
+    schedule_interval='@daily',tags=['123456789'])
+
+# вызываем исключение через PythonOperator и сам даг - в результате начинают приходить уведомления в телеграм
+task_exception = PythonOperator(
+    task_id='task_exception',
+    python_callable=task_exception_function,
+    dag=dag
+)

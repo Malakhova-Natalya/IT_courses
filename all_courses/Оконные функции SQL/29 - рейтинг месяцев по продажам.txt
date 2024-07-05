@@ -1,0 +1,49 @@
+Описание задачи:
+
+🤔 Рейтинг месяцев по продажам
+Есть таблица продаж sales. Составьте рейтинг месяцев 2020 года с точки зрения количества продаж (quantity) по каждому из тарифов. Чем больше подписок тарифа P было продано в месяц M, тем выше место M в рейтинге по тарифу P:
+
+┌──────┬───────┬────────┬──────┬──────────┐
+│ year │ month │ silver │ gold │ platinum │
+├──────┼───────┼────────┼──────┼──────────┤
+│ 2020 │ 1     │ 12     │ 12   │ 12       │
+│ 2020 │ 2     │ 3      │ 8    │ 10       │
+│ 2020 │ 3     │ 8      │ 7    │ 8        │
+│ 2020 │ 4     │ 8      │ 3    │ 4        │
+│ 2020 │ 5     │ 10     │ 6    │ 5        │
+│ 2020 │ 6     │ 6      │ 2    │ 2        │
+│ 2020 │ 7     │ 7      │ 4    │ 3        │
+│ 2020 │ 8     │ 11     │ 9    │ 10       │
+│ 2020 │ 9     │ 5      │ 9    │ 9        │
+│ 2020 │ 10    │ 4      │ 5    │ 7        │
+│ 2020 │ 11    │ 2      │ 1    │ 1        │
+│ 2020 │ 12    │ 1      │ 9    │ 6        │
+└──────┴───────┴────────┴──────┴──────────┘
+Например, в декабре было продано больше подписок silver, чем в любой другой месяц (1-е место в столбце silver). Для тарифа gold декабрь на 9-м месте, для platinum — на 6-м. Январь же оказался самым слабым месяцем для всех трех тарифов.
+
+Сортировка результата: month
+----------------------------------------------------------------------------------------
+Моё решение:
+
+WITH raw_table AS (
+SELECT year, month, 
+SUM(CASE WHEN plan='silver' THEN quantity ELSE NULL END) OVER w AS silver,
+SUM(CASE WHEN plan='gold' THEN quantity ELSE NULL END) OVER w AS gold,
+SUM(CASE WHEN plan='platinum' THEN quantity ELSE NULL END) OVER w AS platinum 
+FROM sales
+WHERE year=2020
+WINDOW w AS (PARTITION BY year, month, plan)
+ORDER BY month
+)
+, plan_cnt AS (
+SELECT year, month, SUM(silver) AS silver_cnt, SUM(gold) AS gold_cnt, SUM(platinum) AS platinum_cnt
+FROM raw_table
+GROUP BY year, month
+ORDER BY month
+)
+SELECT year, month, 
+RANK() OVER (ORDER BY silver_cnt DESC) AS silver,
+RANK() OVER (ORDER BY gold_cnt DESC) AS gold,
+RANK() OVER (ORDER BY platinum_cnt DESC) AS platinum
+FROM plan_cnt
+ORDER BY month

@@ -1,0 +1,63 @@
+Описание задачи:
+
+В данном уроке вам предстоит загрузить в Clickhouse CSV файл с помощью Python или же командной строки! У вас есть право выбора что лучше использовать. Однако записать файл можно только через HTTP протокол.
+
+Формат ответа:
+
+В качестве ответа прислать sum(value) - округлить до целых в любую сторону
+-------------------------------------------------------------------------------
+# Решение
+----------------
+Подключение:
+
+import requests
+​
+# Определяем параметры подключения к ClickHouse
+url = 'http://localhost:8123/'
+----------------
+Создаём таблицу:
+
+# Определяем запрос на создание таблицы 
+create_table_query = f"CREATE TABLE my_table_http (id Int64, name String, value Float64, is_active Bool, key String, list Array(Int64)) ENGINE = Log"
+​
+# Отправляем запрос на создание таблицы
+response = requests.post(url, params={'query': create_table_query, "user": "default", "password":''})
+​
+# Проверяем статус-код ответа
+if response.status_code == 200:
+    print('Таблица успешно создана')
+else:
+    print(f'Ошибка при создании таблицы: {response.text}')
+Таблица успешно создана
+----------------
+Вставляем данные в эту таблицу:
+
+# Определяем запрос на вставку данных
+insert_query = "INSERT INTO my_table_http SELECT * FROM url('https://stepik.org/media/attachments/course/100210/csvjson.csv', CSV, 'id Int64, name String, value Float64, is_active Bool, key String, list Array(Int64)')"
+​
+​
+# Отправляем запрос на создание таблицы
+response = requests.post(url, params={'query': insert_query, "user": "default", "password": ''})
+​
+# Проверяем статус-код ответа
+if response.status_code == 200:
+    print('Данные вставились')
+else:
+    print(f'Ошибка вставки: {response.text}')
+Данные вставились
+----------------
+Запрос, который выводит результат:
+
+# Определяем запрос 
+select_query = f"SELECT toInt64(sum(value)) FROM my_table_http"
+​
+​
+# Отправляем запрос
+response = requests.post(url, params={'query': select_query, "user": "default", "password": ''})
+​
+# Проверяем статус-код ответа
+if response.status_code == 200:
+    print(response.text)
+else:
+    print(f'Ошибка вставки: {response.text}')
+----------------
