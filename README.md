@@ -4,25 +4,15 @@
 | :--------------------: | :---------------------: | :---------------------------: | :---------------------: | :---------------------------: |
 | Docker с нуля | Karpov.Courses | [здесь](https://karpov.courses/docker?_gl=1*ueot3m*_ga*ODc5ODgxODYzLjE3MDU1Njc1MzE.*_ga_DZP7KEXCQQ*MTcwNzcyMTkwNC40NC4xLjE3MDc3MjE5MTcuNDcuMC4w) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Docker%20с%20нуля/final_opinion.md) |  |
 | Jinja, Macros, Packages |  | [здесь](https://courses.getdbt.com/courses/take/jinja-macros-packages/texts/30200737-welcome) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Jinja%2C%20Macros%2C%20Packages/final_opinion.md) |  |
+| Apache Airflow для аналитика | Stepik | [здесь](https://stepik.org/course/99527/syllabus) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Apache%20Airflow%20для%20аналитика/final_opinion.md) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/Apache%20Airflow%20для%20аналитика) |
+| ClickHouse для аналитика | Stepik | [здесь](https://stepik.org/course/100210/syllabus) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/ClickHouse%20для%20аналитика/final_opinion.md) | [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/ClickHouse%20для%20аналитика) |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 
-
-## 🗃️  (dbt)
-
-Курс на платформе : [здесь](https://courses.getdbt.com/courses/take/jinja-macros-packages/texts/30200737-welcome)
-
-Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Jinja%2C%20Macros%2C%20Packages/final_opinion.md)
-
-## 🗃️ Apache Airflow для аналитика
-
-Курс на платформе Stepik: [здесь](https://stepik.org/course/99527/syllabus)
-
-**Мои решения:** [здесь](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/Apache%20Airflow%20для%20аналитика)
-
-Мой отзыв/разбор: [здесь](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Apache%20Airflow%20для%20аналитика/final_opinion.md)
 
 ## 🗃️ ClickHouse для аналитика
 
