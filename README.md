@@ -9,7 +9,7 @@
 | Оконные функции SQL | Stepik | [курс](https://stepik.org/course/95367/syllabus) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Оконные%20функции%20SQL/final_opinion.md) | [мои решения](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/Оконные%20функции%20SQL) |
 | The Complete Hands-on Introduction to Airbyte | Udemy | [курс](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/) (нужен VPN) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/final_opinion.md) | [конспект](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte) |
 | YandexGPT для начинающих | Яндекс Практикум | [курс](https://practicum.yandex.ru/yandexgpt-beginner/?utm_source=referral&utm_medium=community&utm_campaign=tg_community_RF_common_Unde_b2c_Other_None_june-2024) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/YandexGPT%20для%20начинающих) |  |
-|  |  |  |  |  |
+| Semantic Layer | dbt Learn | [курс](https://learn.getdbt.com/courses/semantic-layer) |  |  |
 |  |  |  |  |  |
 
 
