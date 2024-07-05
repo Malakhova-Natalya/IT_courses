@@ -1,4 +1,4 @@
-# 👩‍💻 IT courses:
+# 👩‍💻 IT courses
 
 ## 🗃️ Docker с нуля
 
