@@ -11,6 +11,9 @@
 | YandexGPT для начинающих | Яндекс Практикум | рус | [курс](https://practicum.yandex.ru/yandexgpt-beginner/?utm_source=referral&utm_medium=community&utm_campaign=tg_community_RF_common_Unde_b2c_Other_None_june-2024) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/YandexGPT%20для%20начинающих) |  |
 | dbt - Semantic Layer | dbt Learn | англ | [курс](https://learn.getdbt.com/courses/semantic-layer) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Semantic%20Layer/README.md) |  |
 | Внутреннее обучение - ряд курсов | GlowByte | рус |  | Курсы: 1. Письменная фиксация информации 2. Деловая переписка 3. Greenplum 4. Основы баз данных и SQL. Введение в повышение производительности запроса 5. Общая теория ХД и BI |  |
+| DDL в SQL: Определение и управление структурами баз данных | Stepik | рус | [курс](https://stepik.org/course/232192/syllabus) | [отзыв/разбор]() |  |
+
+
 
 
 
