@@ -10,7 +10,7 @@
 | The Complete Hands-on Introduction to Airbyte | Udemy | англ | [курс](https://www.udemy.com/course/the-complete-hands-on-introduction-to-airbyte/) (VPN) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte/final_opinion.md) | [конспект](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/The%20Complete%20Hands-on%20Introduction%20to%20Airbyte) |
 | YandexGPT для начинающих | Яндекс Практикум | рус | [курс](https://practicum.yandex.ru/yandexgpt-beginner/?utm_source=referral&utm_medium=community&utm_campaign=tg_community_RF_common_Unde_b2c_Other_None_june-2024) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/tree/main/all_courses/YandexGPT%20для%20начинающих) |  |
 | dbt - Semantic Layer | dbt Learn | англ | [курс](https://learn.getdbt.com/courses/semantic-layer) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Semantic%20Layer/README.md) |  |
-
+| Внутреннее обучение | GlowByte | рус | - | 1. Письменная фиксация информации 2. Деловая переписка 3. Greenplum 4. Основы баз данных и SQL. Введение в повышение производительности запроса 5. Общая теория ХД и BI |  |
 
 
 
