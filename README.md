@@ -1,8 +1,8 @@
 # 👩‍💻 IT courses
 
-| Название курса | Платформа | Язык | Ссылка | Мой отзыв/разбор/сертификат | Мои решения/конспект |
+| Название курса | Платформа | Язык | Ссылка | Мой отзыв/разбор | Мои решения/конспект |
 | :--------------------: | :---------------------: | :---------------------------: | :---------------------: | :---------------------------: | :---------------------------: |
-| dbt Fundamentals | dbt Learn | англ | [курс](https://learn.getdbt.com/courses/dbt-fundamentals) | [сертификат](https://t.me/diary_musician_analyst/301?single) |  |
+| dbt Fundamentals | dbt Learn | англ | [курс](https://learn.getdbt.com/courses/dbt-fundamentals) | [отзыв](https://t.me/diary_musician_analyst/302) |  |
 | Внутреннее обучение  |	Adventum | рус |  | Курс "Инжиниринг данных" |  |
 | Data Learn - Getting Started with Analytics and Data Engineering |	GitHub | рус | [курс](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md) | [отзыв/разбор](https://t.me/diary_musician_analyst/351) | [мои решения](https://github.com/Malakhova-Natalya/Data_Learn) |
 | Docker с нуля | Karpov.Courses | рус | [курс](https://karpov.courses/docker?_gl=1*ueot3m*_ga*ODc5ODgxODYzLjE3MDU1Njc1MzE.*_ga_DZP7KEXCQQ*MTcwNzcyMTkwNC40NC4xLjE3MDc3MjE5MTcuNDcuMC4w) | [отзыв/разбор](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Docker%20с%20нуля/final_opinion.md) |  |
