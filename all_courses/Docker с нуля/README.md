@@ -11,5 +11,5 @@
 ## 📜 Сертификат
 
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Docker%20с%20нуля/01%20-%20certificate.png)
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/Docker%20с%20нуля/02%20-%20certificate.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Docker%20с%20нуля/01%20-%20certificate.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/Docker%20с%20нуля/02%20-%20certificate.png)
