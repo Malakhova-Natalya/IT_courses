@@ -19,8 +19,8 @@
 ## 📜 Сертификат
 
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/YandexGPT%20для%20начинающих/01.png)
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/YandexGPT%20для%20начинающих/02.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/YandexGPT%20для%20начинающих/01.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/YandexGPT%20для%20начинающих/02.png)
 
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/YandexGPT%20для%20начинающих/03.png)
-![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/YandexGPT%20для%20начинающих/04.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/YandexGPT%20для%20начинающих/03.png)
+![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/YandexGPT%20для%20начинающих/04.png)
