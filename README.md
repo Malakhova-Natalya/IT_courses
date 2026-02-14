@@ -2,9 +2,9 @@
 
 | Название курса | Платформа | Язык | Ссылка | Мой отзыв/разбор | Мои решения/конспект | Сертификат |
 | :--------------------: | :---------------------: | :---------------------------: | :---------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
-| Аналитик данных + | Яндекс Практикум  | рус |  |  |  |  |
-| "Поколение Python": курс для начинающих | Stepik | рус | [курс]([https://learn.getdbt.com/courses/dbt-fundamentals](https://stepik.org/course/58852/promo?search=8813282844)) |  |  |  |
-| "Поколение Python": курс для продвинутых | Stepik | рус  | [курс]([https://learn.getdbt.com/courses/dbt-fundamentals](https://stepik.org/course/68343/promo?search=8813282848)) |  |  |  |
+| Аналитик данных + | Яндекс Практикум  | рус |  |  |  | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%AF%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D1%80%D1%83%D1%81.jpeg) ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%AF%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D0%B0%D0%BD%D0%B3%D0%BB.jpeg) |
+| "Поколение Python": курс для начинающих | Stepik | рус | [курс]([https://learn.getdbt.com/courses/dbt-fundamentals](https://stepik.org/course/58852/promo?search=8813282844)) |  |  | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%9F%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20Python.png) |
+| "Поколение Python": курс для продвинутых | Stepik | рус  | [курс]([https://learn.getdbt.com/courses/dbt-fundamentals](https://stepik.org/course/68343/promo?search=8813282848)) |  |  | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%9F%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20Python%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%8B%D1%85.png) |
 | dbt Fundamentals | dbt Learn | англ | [курс](https://learn.getdbt.com/courses/dbt-fundamentals) |  |  |  |
 | Внутреннее обучение  |	Adventum | рус |  | Курс "Инжиниринг данных" | - | - |
 | Data Learn - Getting Started with Analytics and Data Engineering |	GitHub | рус | [курс](https://github.com/Data-Learn/data-engineering/blob/master/DE%20-%20101%20Guide.md) | [отзыв/разбор](https://t.me/diary_musician_analyst/351) | [мои решения](https://github.com/Malakhova-Natalya/Data_Learn) | - |
