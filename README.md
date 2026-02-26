@@ -3,7 +3,7 @@
 | Название курса | Платформа | Язык | Ссылка | Мой отзыв/разбор | Мои решения/конспект | Сертификат |
 | :--------------------: | :---------------------: | :---------------------------: | :---------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
 | Аналитик данных + | Яндекс Практикум  | рус |  |  |  | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%AF%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D1%80%D1%83%D1%81.jpeg) ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%AF%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D0%B0%D0%BD%D0%B3%D0%BB.jpeg) |
-| Основы математики для цифровых профессий | Яндекс Практикум  | рус | [курс}(https://start.practicum.yandex/math-foundations) | - | - | - |
+| Основы математики для цифровых профессий | Яндекс Практикум  | рус | [курс](https://start.practicum.yandex/math-foundations) | - | - | - |
 | Визуальные презентации | Яндекс Практикум  | рус | - | - | - | - |
 | Excel для работы | Яндекс Практикум  | рус | [курс](https://practicum.yandex.ru/excel-for-work-full/) | - | - | - |
 | Симулятор SQL | Karpov courses  | рус | [курс](https://karpov.courses/simulator-sql) | - | - | - |
