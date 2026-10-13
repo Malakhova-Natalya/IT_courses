@@ -2,7 +2,7 @@
 
 | Название курса | Платформа | Язык | Ссылка | Мой отзыв/разбор | Мои решения/конспект | Сертификат |
 | :--------------------: | :---------------------: | :---------------------------: | :---------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
-| Аналитик данных + | Яндекс Практикум  | рус |  |  |  | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%AF%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D1%80%D1%83%D1%81.jpeg) ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%AF%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D0%B0%D0%BD%D0%B3%D0%BB.jpeg) |
+| Аналитик данных + | Яндекс Практикум  | рус | - | - | [Portfolio](https://github.com/Malakhova-Natalya/Portfolio) | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%AF%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D1%80%D1%83%D1%81.jpeg) ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/%D0%AF%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%D0%BC%20%D0%B0%D0%BD%D0%B3%D0%BB.jpeg) |
 | Основы математики для цифровых профессий | Яндекс Практикум  | рус | [курс](https://start.practicum.yandex/math-foundations) | - | - | - |
 | Визуальные презентации | Яндекс Практикум  | рус | - | - | - | - |
 | Excel для работы | Яндекс Практикум  | рус | [курс](https://practicum.yandex.ru/excel-for-work-full/) | - | - | - |
@@ -26,7 +26,7 @@
 | Confluence Базовый курс | Stepik | рус | [курс](https://stepik.org/course/228389/syllabus) | - | - | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/Confluence%20Базовый%20курс.png) |
 | SQL-собеседование: 100 задач уровня Middle | Stepik | рус | [курс](https://stepik.org/course/238112/syllabus) | [отзыв/разбор](https://t.me/diary_musician_analyst/558)| - | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/SQL-собеседование%3A%20100%20задач%20уровня%20Middle/SQL%20собеседование%20100%20задач%20уровня%20Middle.png)|
 | SQL-архитектура и CTE: 50 задач уровня Upper-Middle | Stepik | рус | [курс](https://stepik.org/course/241009/syllabus) | - | - | ![cover](https://github.com/Malakhova-Natalya/IT_courses/blob/main/all_courses/certificate/SQL-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B8%20CTE%2050%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%20%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D1%8F%20Upper-Middle.png)|
-| Системный аналитик расширенный | Яндекс Практикум | рус | [курс](https://practicum.yandex.ru/systems-analyst/) | - | - | |
+| Системный аналитик расширенный | Яндекс Практикум | рус | [курс](https://practicum.yandex.ru/systems-analyst/) | - | - | - |
 
 
 
